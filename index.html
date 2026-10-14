@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vitor — Job Application Tracker</title>
+<style>
+body{font-family:Arial,sans-serif;background:#0b1020;color:#eef3ff;margin:0}
+.wrap{max-width:1050px;margin:auto;padding:32px 20px}
+.card,.job{background:#131a2b;border:1px solid #26324c;border-radius:16px;padding:18px;margin:12px 0}
+h1,h2{margin-top:0}
+.meta{color:#9aabc8}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.box{background:#0e1526;border:1px solid #26324c;border-radius:10px;padding:12px}
+.label{color:#9aabc8;font-size:12px;text-transform:uppercase}
+a{color:#7aa2ff;text-decoration:none;font-weight:bold}
+@media(max-width:700px){.grid{grid-template-columns:1fr}}
+
+button,input,select,textarea{font:inherit;color:inherit;background:#0e1526;border:1px solid #41516d;border-radius:9px;padding:10px}
+button{cursor:pointer}button:hover{background:#263957}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #78b7ff;outline-offset:2px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.tools label{display:flex;gap:8px;align-items:center}.summary{display:flex;gap:20px;flex-wrap:wrap;margin:16px 0;color:#bdd3f5}
+.edit{margin-top:18px;border-top:1px solid #34435d;padding-top:15px}.edit summary{cursor:pointer;font-weight:bold;color:#a7c7ff;padding:7px 0}.edit-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:15px 0}.edit-fields label{display:flex;flex-direction:column;gap:7px;font-size:14px}.edit-fields .wide{grid-column:1/-1}.edit-fields textarea{min-height:95px;resize:vertical}.manual-status{font-weight:bold;color:#98d9cc;margin:12px 0}.notice{min-height:24px;color:#a9e8ce}.hint{font-size:14px;color:#aabbd5;line-height:1.6}.job[hidden]{display:none}.box b{overflow-wrap:anywhere}h2{line-height:1.3}details.record{margin-top:10px}.date-view{font-weight:normal;color:#bbc8dd;font-size:14px}
+@media(max-width:700px){.edit-fields{grid-template-columns:1fr}.tools label{width:100%}.tools select,.tools input{width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Job Application Tracker</h1>
+<p class="meta">Vitor Tee How · Senior Database Engineer / DBA · Atualizado em 14/10/2026 às 15:35 (Brasília)</p>
+
+<div class="card">
+<div class="grid">
+<div class="box"><div class="label">Faixa alvo</div><b>USD 100k–120k bruto/ano</b></div>
+<div class="box"><div class="label">Localização</div><b>Brasil / LATAM / Worldwide remote</b></div>
+<div class="box"><div class="label">Foco</div><b>Oracle · SQL Server · PostgreSQL · Tuning · Migration</b></div>
+</div>
+</div>
+
+
+<section class="card" aria-label="Gerenciar candidaturas">
+<h2>Seu acompanhamento</h2>
+<p class="hint">Abra “Atualizar acompanhamento” em uma vaga para registrar resposta, status, entrevista e observações. Suas alterações são salvas neste navegador e preservadas ao atualizar a página. Para usar em outro dispositivo ou enviar suas alterações para a próxima atualização, exporte e importe o backup. O backup e o HTML baixado incluem suas observações.</p>
+<div class="tools"><label>Buscar <input id="search-jobs" type="search" placeholder="Empresa ou cargo"></label><label>Status <select id="filter-status"><option value="">Todos</option></select></label><button id="export-backup" type="button">Exportar backup</button><button id="import-backup" type="button">Importar backup</button><button id="download-html" type="button">Baixar HTML atualizado</button><input id="backup-file" type="file" accept=".json,application/json" hidden></div>
+<div id="tracker-summary" class="summary" aria-live="polite"></div><p id="tracker-notice" class="notice" role="status"></p>
+</section>
+<div class="job">
+<h2>Senior Database Reliability Engineer — Sezzle</h2>
+<p class="meta">Brazil — Remote · Candidatura enviada em 14/10/2026</p>
+<div class="grid">
+<div class="box"><div class="label">Salário</div><b>USD 5,000–9,500/mês bruto</b></div>
+<div class="box"><div class="label">Pretensão enviada</div><b>USD 8.500/mês · USD 102.000/ano</b></div>
+<div class="box"><div class="label">Status</div><b>Enviada por Vitor — 14/10/2026</b></div>
+</div>
+<p>Candidatura finalizada e enviada por Vitor em 14/10/2026, conforme confirmação no chat. Aguardando retorno da Sezzle. Vaga remota no Brasil, com faixa publicada de USD 5.000–9.500/mês bruto. Pretensão enviada e confirmada por Vitor: USD 8.500/mês bruto (USD 102.000/ano). Gaps a validar em entrevista: Go/Python/TypeScript em produção, ferramentas internas, AWS RDS/Aurora, MySQL/PostgreSQL HA e IaC.</p>
+<a href="https://job-boards.greenhouse.io/sezzle/jobs/7725284003" target="_blank">Abrir vaga →</a>
+</div>
+
+<div class="job">
+<h2>Principal SQL Database Administrator — FullStack</h2>
+<p class="meta">Latin America — Remote</p>
+<div class="grid">
+<div class="box"><div class="label">Salário</div><b>Não informado</b></div>
+<div class="box"><div class="label">Fit</div><b>Escala e inglês a validar</b></div>
+<div class="box"><div class="label">Status</div><b>Consulta salarial enviada — aguardando resposta</b></div>
+</div>
+<p>Verificada em 14/10/2026 no LinkedIn: remoto LATAM/Brasil; sem faixa salarial numérica. Exige inglês avançado, administração de 1.000+ bancos ou equivalente enterprise e sobreposição com horários do Canadá. Salário e escala precisam ser confirmados. Valores conflitantes dos agregadores não foram usados como remuneração oficial.</p>
+<p><b>Contato em 14/10/2026 às 15:11 (Brasília):</b> <a href="https://www.linkedin.com/in/luis-alfredo-ramirez-enriquez/" target="_blank" rel="noopener noreferrer">Luis Ramirez</a> — IT Recruiter Lead. Mensagem enviada e confirmada na conversa do LinkedIn. Assunto: Principal SQL Database Administrator — LATAM compensation range. Apresentação: 22 anos com Oracle, SQL Server e PostgreSQL, tuning, migrações e sistemas financeiros críticos; exemplo de relatório reduzido de 30 minutos para 30 segundos. Pergunta: faixa de remuneração, moeda e periodicidade para candidato no Brasil. Contato de recrutamento confirmado no perfil/empresa; solicitado encaminhamento caso outro recrutador seja responsável pela vaga. Sem candidatura enviada para esta vaga.</p>
+<a href="https://br.linkedin.com/jobs/view/principal-sql-database-administrator-remote-latin-america-at-fullstack-4463709403" target="_blank">Abrir vaga →</a>
+</div>
+
+<div class="job">
+<h2>SQL Server Database Architect — BairesDev</h2>
+<p class="meta">Brazil — Remote</p>
+<div class="grid">
+<div class="box"><div class="label">Salário</div><b>USD/local currency, valor não informado</b></div>
+<div class="box"><div class="label">Fit</div><b>SQL/tuning compatíveis; .NET/Blazor a validar</b></div>
+<div class="box"><div class="label">Status</div><b>Consulta salarial enviada — aguardando resposta</b></div>
+</div>
+<p>Forte aderência em SQL Server, arquitetura, tuning, stored procedures e modernização. Gaps: C#/.NET/Blazor recentes e migração Azure.</p>
+<p><b>Contato em 14/10/2026 às 15:09 (Brasília):</b> <a href="https://www.linkedin.com/in/eymi-ramirez/" target="_blank" rel="noopener noreferrer">Eymi Ramírez Torres</a> — Recruiting Associate Director. Mensagem enviada e confirmada na conversa do LinkedIn. Assunto: SQL Server Database Architect — REF#302872 — salary range. Apresentação: 22 anos com Oracle, SQL Server e PostgreSQL, tuning, migrações e sistemas financeiros críticos; exemplo de relatório reduzido de 30 minutos para 30 segundos. Pergunta: faixa de remuneração, moeda e periodicidade para candidato no Brasil. Contato de recrutamento confirmado no perfil/empresa; solicitado encaminhamento caso outro recrutador seja responsável pela vaga. Sem candidatura enviada para esta vaga.</p>
+<a href="https://br.linkedin.com/jobs/view/sql-server-database-architect-remote-work-ref%23302872-at-bairesdev-4462091066" target="_blank">Abrir vaga →</a>
+</div>
+
+<div class="job">
+<h2>Senior Database Reliability Engineer — micro1</h2>
+<p class="meta">Worldwide — Remote</p>
+<div class="grid">
+<div class="box"><div class="label">Salário</div><b>USD 120k–150k/ano</b></div>
+<div class="box"><div class="label">Fit</div><b>62%</b></div>
+<div class="box"><div class="label">Status</div><b>Não priorizar</b></div>
+</div>
+<p>Localização e salário excelentes, mas exige PostgreSQL expert, AWS RDS/Aurora e HA/replication em profundidade. O gap é central.</p>
+<a href="https://himalayas.app/companies/micro1/jobs/senior-database-reliability-engineer" target="_blank">Abrir vaga →</a>
+</div>
+
+<div class="job">
+<h2>Senior Database Migration Engineer — Guidewire</h2>
+<p class="meta">Curitiba — Hybrid</p>
+<div class="grid">
+<div class="box"><div class="label">Salário</div><b>Brasil: não publicado</b></div>
+<div class="box"><div class="label">Fit</div><b>84%</b></div>
+<div class="box"><div class="label">Status</div><b>Confirmar salário/local</b></div>
+</div>
+<p>Migração Oracle/SQL Server→PostgreSQL, tuning, cutover, validação e automação combinam fortemente com seu histórico. Porém a posição é híbrida em Curitiba.</p>
+<a href="https://www.guidewire.com/about/careers/jobs/senior-database-migration-engineer-jr_15143" target="_blank">Abrir vaga →</a>
+</div>
+
+<div class="job"><h2>Senior Database Administrator — Sphise</h2><p class="meta">Brazil — Remote · Contrato · Verificada em 14/10/2026</p><div class="grid"><div class="box"><div class="label">Salário</div><b>Não publicado</b></div><div class="box"><div class="label">Aderência</div><b>SQL Server · PostgreSQL · Tuning · Migration</b></div><div class="box"><div class="label">Status</div><b>Consulta salarial enviada — aguardando resposta</b></div></div><p>Exige 7+ anos, produção SQL Server/PostgreSQL, HA/DR, Always On, serviços Azure, administração Windows/Linux e scripting. Conexão com tuning e migrações; profundidade em Azure e HA precisa ser validada. O anúncio autenticado adiciona requisitos de 1+ ano em Data Lakes, 1+ ano em Azure Databricks e 4+ anos de inglês; experiência não confirmada no histórico disponível. Sem faixa oficial para confirmar USD 100k–120k/ano.</p><p><b>Contato em 14/10/2026 às 15:06 (Brasília):</b> <a href="https://www.linkedin.com/in/sashka-malinovikj/" target="_blank" rel="noopener noreferrer">Sashka Malinovik</a> — Job poster · Client &amp; Talent Partner | Tech Recruiter. Mensagem enviada e confirmada na conversa do LinkedIn. Assunto: Senior Database Administrator — compensation range. Apresentação: 22 anos com Oracle, SQL Server e PostgreSQL, tuning, migrações e sistemas financeiros críticos; exemplo de relatório reduzido de 30 minutos para 30 segundos. Pergunta: faixa de remuneração, moeda e periodicidade para candidato no Brasil. Responsável pelo anúncio confirmado diretamente na vaga. Sem candidatura enviada para esta vaga.</p>
+<a href="https://br.linkedin.com/jobs/view/senior-database-administrator-at-sphise-4473778673" target="_blank" rel="noopener noreferrer">Abrir vaga →</a></div>
+<div class="card"><h2>Execução de 14/10/2026</h2><p><b>Candidaturas registradas como enviadas: 1 (Sezzle, enviada por Vitor).</b> LinkedIn autenticado inicialmente com perfil Vitor Tee How; a navegação seguinte retornou à tela de login. Vitor concluiu a Sezzle. Em nova sessão autenticada, o assistente enviou três consultas salariais: Sphise (Sashka), BairesDev (Eymi) e FullStack (Luis).</p><p>Sezzle: envio concluído por Vitor em 14/10/2026, conforme informação do próprio candidato. Próximo passo: aguardar contato da empresa.</p><p>Triagem adicional: Senior DBA da Yuno paga USD 3.000–4.500/mês, exige inglês e espanhol fluentes e fuso complementar a Bogotá. Descartada pela remuneração abaixo do alvo.</p><a href="https://jobs.lever.co/yuno/8978a46a-8898-4162-9df5-be2e1e90c3b2" target="_blank" rel="noopener noreferrer">Fonte Yuno →</a></div>
+<div class="card">
+<b>Observação:</b> este painel distingue candidaturas enviadas de vagas em triagem. O envio da Sezzle foi informado por Vitor; as demais vagas permanecem sem envio registrado.
+</div>
+</div>
+
+<script id="tracker-overrides" type="application/json">{}</script>
+<script>
+"use strict";
+const STORAGE_KEY = "vitor-job-tracker-manual-v1";
+const STATUS_OPTIONS = [
+  ["triagem","Em análise"],["informacoes","Aguardando informações"],["contato","Recrutador contatado"],
+  ["enviada","Candidatura enviada"],["positiva","Resposta positiva"],["negativa","Resposta negativa"],
+  ["entrevista","Entrevista marcada"],["entrevistado","Entrevista realizada"],["proposta","Proposta recebida"],
+  ["aprovado","Aprovado"],["reprovado","Reprovado"],["encerrada","Vaga encerrada"],["desistiu","Desisti"],["nao_priorizar","Não priorizar"]
+];
+const STATUS_LABELS = Object.fromEntries(STATUS_OPTIONS);
+const FIELDS = ["status","response","interview","salary","notes","updatedAt"];
+function validRecord(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return false;
+  if (!Object.hasOwn(STATUS_LABELS,value.status)) return false;
+  if (!["","positiva","negativa","neutra"].includes(value.response || "")) return false;
+  return FIELDS.every(key => value[key] === undefined || (typeof value[key] === "string" && value[key].length <= 20000));
+}
+function cleanRecords(input) {
+  const output = Object.create(null);
+  if (!input || typeof input !== "object" || Array.isArray(input)) return output;
+  for (const [key,value] of Object.entries(input)) {
+    if (!validRecord(value) || !/^(linkedin-\d+|greenhouse-\d+|url-.+)$/.test(key)) continue;
+    output[key] = Object.fromEntries(FIELDS.map(field => [field,value[field] || ""]));
+  }
+  return output;
+}
+function mergeRecords(base,incoming) {
+  const result = Object.assign(Object.create(null),cleanRecords(base));
+  for (const [key,value] of Object.entries(cleanRecords(incoming))) {
+    if (!result[key] || (value.updatedAt || "") >= (result[key].updatedAt || "")) result[key] = value;
+  }
+  return result;
+}
+let records = Object.create(null);
+let storageAvailable = true;
+try { records = cleanRecords(JSON.parse(document.getElementById("tracker-overrides").textContent)); } catch (_) {}
+try { records = mergeRecords(records,JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}")); }
+catch (_) { storageAvailable = false; }
+function tell(message) { document.getElementById("tracker-notice").textContent = message; }
+function persist() {
+  try { localStorage.setItem(STORAGE_KEY,JSON.stringify(records)); storageAvailable = true; return true; }
+  catch (_) { storageAvailable = false; tell("Não foi possível salvar neste navegador. Exporte o backup ou baixe o HTML para preservar as alterações."); return false; }
+}
+function keyFor(url) {
+  const linked = url.match(/linkedin\.com\/jobs\/view\/[^?#]*?(\d{8,})(?:[/?#]|$)/);
+  if (linked) return "linkedin-" + linked[1];
+  const green = url.match(/greenhouse\.io\/[^/]+\/jobs\/(\d+)/);
+  if (green) return "greenhouse-" + green[1];
+  return "url-" + url.split("?")[0].replace(/\/$/,"");
+}
+function defaultStatus(text) {
+  if (text.includes("Enviada por Vitor")) return "enviada";
+  if (text.includes("Consulta salarial enviada")) return "contato";
+  if (text.includes("Não priorizar")) return "nao_priorizar";
+  if (text.includes("Confirmar")) return "informacoes";
+  return "triagem";
+}
+function option(value,label) { const item=document.createElement("option");item.value=value;item.textContent=label;return item; }
+const cards = [...document.querySelectorAll(".job")].map((card,index) => {
+  const link = [...card.querySelectorAll("a")].find(a => a.textContent.includes("Abrir vaga"));
+  const key=keyFor(link.href);
+  const statusBox = [...card.querySelectorAll(".box")].find(box => box.querySelector(".label")?.textContent === "Status");
+  const initial = statusBox.querySelector("b").textContent;
+  const defaults={status:defaultStatus(initial),response:"",interview:"",salary:"",notes:"",updatedAt:""};
+  const state=() => records[key] || defaults;
+  const manual=document.createElement("p");manual.className="manual-status";card.append(manual);
+  const editor=document.createElement("details");editor.className="edit";
+  editor.innerHTML=`<summary>Atualizar acompanhamento</summary><form><div class="edit-fields"><label>Status<select name="status"></select></label><label>Resposta do recrutador<select name="response"><option value="">Sem resposta registrada</option><option value="positiva">Positiva</option><option value="negativa">Negativa</option><option value="neutra">Pedido de informações / neutra</option></select></label><label>Entrevista — data e hora (Brasília)<input name="interview" type="datetime-local"></label><label>Remuneração confirmada<input name="salary" maxlength="200" placeholder="Ex.: USD 8.500/mês bruto"></label><label class="wide">Observações / próxima ação<textarea name="notes" maxlength="20000" placeholder="Link da reunião, etapa do processo, retorno recebido..."></textarea></label></div><button type="submit">Salvar alterações</button></form>`;
+  card.append(editor);
+  const form=editor.querySelector("form");STATUS_OPTIONS.forEach(([value,label]) => form.elements.status.append(option(value,label)));
+  function render() {
+    const value=state();for(const field of FIELDS.filter(f=>f!=="updatedAt")) form.elements[field].value=value[field] || "";
+    statusBox.querySelector("b").textContent=STATUS_LABELS[value.status];
+    const parts=[];
+    if(value.response) parts.push("Resposta: " + ({positiva:"positiva",negativa:"negativa",neutra:"pedido de informações / neutra"})[value.response]);
+    if(value.interview) parts.push("Entrevista: " + value.interview.replace("T"," às ") + " (Brasília)");
+    if(value.salary) parts.push("Remuneração: " + value.salary);
+    if(value.updatedAt) parts.push("Atualizado por você: " + new Date(value.updatedAt).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo"}));
+    manual.textContent=parts.join(" · ");
+  }
+  form.addEventListener("submit",event=>{
+    event.preventDefault();const data=new FormData(form);
+    const value={status:data.get("status"),response:data.get("response"),interview:data.get("interview"),salary:data.get("salary"),notes:data.get("notes"),updatedAt:new Date().toISOString()};
+    if(!validRecord(value)) {tell("Verifique os campos antes de salvar.");return;}
+    records[key]=value;if(persist())tell("Alterações salvas neste navegador.");render();updateView();
+  });
+  render();return {key,card,state,render,title:card.querySelector("h2").textContent};
+});
+const filter=document.getElementById("filter-status");STATUS_OPTIONS.forEach(([value,label]) => filter.append(option(value,label)));
+function updateView() {
+  const query=document.getElementById("search-jobs").value.toLocaleLowerCase("pt-BR");const selected=filter.value;
+  for(const job of cards)job.card.hidden=(!job.title.toLocaleLowerCase("pt-BR").includes(query) || (selected && job.state().status!==selected));
+  const count=statuses=>cards.filter(job=>statuses.includes(job.state().status)).length;
+  document.getElementById("tracker-summary").textContent=`${cards.length} vagas · ${count(["enviada","positiva","negativa","entrevista","entrevistado","proposta","aprovado","reprovado"])} candidaturas / processos · ${count(["contato"])} contatos pendentes · ${count(["entrevista"])} entrevistas marcadas`;
+}
+document.getElementById("search-jobs").addEventListener("input",updateView);filter.addEventListener("change",updateView);
+function download(content,mime,name) {
+  const url=URL.createObjectURL(new Blob([content],{type:mime}));const a=document.createElement("a");a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+document.getElementById("export-backup").addEventListener("click",()=>{
+  download(JSON.stringify({schemaVersion:1,exportedAt:new Date().toISOString(),records},null,2),"application/json","vitor-tracker-backup.json");tell("Backup exportado. Guarde-o ou envie-o para incorporar suas alterações à próxima atualização.");
+});
+document.getElementById("import-backup").addEventListener("click",()=>document.getElementById("backup-file").click());
+document.getElementById("backup-file").addEventListener("change",async event=>{
+  const file=event.target.files[0];if(!file)return;
+  try {
+    if(file.size>2000000)throw Error("Arquivo maior que 2 MB.");
+    const value=JSON.parse(await file.text());
+    if(value.schemaVersion!==1 || !value.records || typeof value.records!=="object" || Array.isArray(value.records))throw Error("Formato de backup inválido.");
+    const cleaned=cleanRecords(value.records);if(Object.keys(cleaned).length!==Object.keys(value.records).length)throw Error("O backup contém registros inválidos.");
+    records=mergeRecords(records,cleaned);const saved=persist();cards.forEach(job=>job.render());updateView();if(saved)tell("Backup importado. As alterações mais recentes de cada vaga foram preservadas.");
+  } catch(error) {tell("Não foi possível importar: " + error.message);}
+  event.target.value="";
+});
+document.getElementById("download-html").addEventListener("click",()=>{
+  // Export the original page structure, not the live editors, so initialization remains idempotent.
+  const clone=document.documentElement.cloneNode(true);
+  clone.querySelectorAll(".edit,.manual-status").forEach(el=>el.remove());
+  clone.querySelector("#tracker-overrides").textContent=JSON.stringify(records).replace(/</g,"\\u003c");
+  clone.querySelector("#filter-status").innerHTML='<option value="">Todos</option>';
+  clone.querySelector("#tracker-summary").textContent="";clone.querySelector("#tracker-notice").textContent="";
+  clone.querySelector("#search-jobs").removeAttribute("value");clone.querySelectorAll(".job[hidden]").forEach(el=>el.removeAttribute("hidden"));
+  download("<!doctype html>\n"+clone.outerHTML,"text/html;charset=utf-8","vitor_job_application_tracker.html");tell("HTML exportado com suas alterações. Abra o arquivo para conferir ou envie para atualizar a versão publicada.");
+});
+updateView();if(!storageAvailable)tell("O armazenamento deste navegador está indisponível. Exporte backup ou HTML para preservar as alterações.");
+</script>
+
+</body>
+</html>
