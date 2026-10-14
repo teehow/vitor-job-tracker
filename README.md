@@ -54,12 +54,13 @@ Clique em **Baixar HTML atualizado** para baixar uma cópia completa do painel c
 
 ## Atualização diária
 
-Uma automação externa, configurada no ChatGPT para **08h de Brasília**, pesquisa vagas no LinkedIn e nos sites das empresas, conforme o perfil e os critérios definidos:
+Uma automação externa, configurada no ChatGPT para **08h de Brasília**, pesquisa vagas no LinkedIn, no [Ladders](https://www.theladders.com/) e nos sites das empresas, conforme o perfil e os critérios definidos:
 
 - Trabalho remoto permitido a partir do Brasil, incluindo oportunidades Brasil/LATAM/worldwide.
 - Foco em Senior Database Engineer, Oracle DBA/Engineer/Architect, SQL Server DBA/Architect e funções compatíveis.
 - Remuneração alvo de USD 100.000–120.000 bruto/ano ou USD 50–60/h.
-- Candidatura quando houver aderência e informações confirmadas suficientes.
+- Candidatura quando houver aderência e informações confirmadas suficientes, usando o currículo fornecido pelo candidato.
+- No Ladders, confirmação de elegibilidade para trabalho a partir do Brasil e distinção entre remuneração oficial e estimativas da plataforma.
 - Contato com recrutamento verificado quando faltar a faixa salarial ou outra informação relevante.
 - Registro dos resultados no tracker e atualização do `index.html` neste repositório.
 
