@@ -54,7 +54,7 @@ Clique em **Baixar HTML atualizado** para baixar uma cópia completa do painel c
 
 ## Atualização diária
 
-Uma automação externa, configurada no ChatGPT para **08h de Brasília**, pesquisa vagas no LinkedIn, no [Ladders](https://www.theladders.com/) e nos sites das empresas, conforme o perfil e os critérios definidos:
+Uma automação externa, configurada no ChatGPT para **08h de Brasília**, pesquisa vagas no LinkedIn, no [Ladders](https://www.theladders.com/), no [Himalayas](https://himalayas.app/) e nos sites das empresas, conforme o perfil e os critérios definidos:
 
 - Trabalho remoto permitido a partir do Brasil, incluindo oportunidades Brasil/LATAM/worldwide.
 - Foco em Senior Database Engineer, Oracle DBA/Engineer/Architect, SQL Server DBA/Architect e funções compatíveis.
