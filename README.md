@@ -80,7 +80,7 @@ Uma automação diária do Codex, **Radar de vagas do Vitor — 08h**, está con
 
 Essa rotina depende das conexões, acessos e informações disponíveis. Logins, verificações ou dados faltantes podem impedir uma ação; apenas envios efetivamente confirmados devem ser registrados como concluídos. A rotina evita repetir candidaturas e contatos já registrados.
 
-A rotina usa o novo currículo aprovado pelo candidato nesta conversa quando ele estiver disponível; enquanto o arquivo estiver pendente, a pesquisa e a consulta de respostas continuam, mas candidaturas que dependam dele ficam pendentes. Ela não escolhe outra versão antiga por conta própria. Currículo, credenciais e conteúdo privado de mensagens não devem integrar o repositório público.
+A rotina usa o currículo aprovado pelo candidato, já recebido e conferido. A localização do arquivo original está registrada de forma privada na automação; o bloqueio de currículo pendente foi resolvido. Se esse arquivo ficar inacessível, a rotina solicita intervenção sem escolher outra versão antiga por conta própria. Currículo, credenciais e conteúdo privado de mensagens não devem integrar o repositório público.
 
 Após alterações, a rotina valida o tracker, faz commit e push para `main` e confere o GitHub Pages. As notificações ficam restritas a novidades relevantes, envios confirmados, respostas, falhas ou ações necessárias, sem repetir bloqueios inalterados. Novos contatos ou respostas a recrutadores fora de uma candidatura dependem de autorização específica.
 
