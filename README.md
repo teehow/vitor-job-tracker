@@ -4,21 +4,33 @@ Painel de acompanhamento de vagas e candidaturas de Vitor Tee How.
 
 **Acesse o site:** https://teehow.github.io/vitor-job-tracker/
 
+## Organização do painel
+
+- **Visão geral:** indicadores, próximos passos, distribuição das etapas e resumo da última rodada.
+- **Vagas:** lista compacta com abas Ativas, Em processo, Aguardando, Arquivo e Todas. Vagas encerradas, descartadas ou não priorizadas ficam no arquivo.
+- **Histórico:** relatórios completos das rodadas, recolhidos para consulta individual.
+- **Dados e critérios:** objetivos profissionais, fontes, importação, exportação e cópia completa do painel.
+
+Os indicadores consideram todas as vagas. “Aguardando retorno” reúne contatos e informações pendentes; não significa que houve contato em todas essas vagas. Próximos passos sugeridos são identificados como sugestões nos cartões. Datas e prioridades são definidas por você, sem envio automático de mensagens.
+
 ## Consultar vagas
 
 Cada cartão reúne cargo, empresa, localização, remuneração conhecida, status, avaliação de aderência, histórico de contato e link da vaga.
 
-- Use **Buscar** para localizar uma empresa ou cargo.
+- Use **Buscar** para localizar uma empresa, cargo, localização ou observação.
 - Use **Status** para filtrar a lista.
-- O resumo mostra o total de vagas, candidaturas/processos, contatos pendentes e entrevistas marcadas. Os totais consideram todas as vagas, mesmo com um filtro aplicado.
+- Combine a aba de etapa com o filtro de status. Use **Todas** para consultar qualquer status ou **Limpar filtros** se uma busca não retornar resultados.
+- Ordene por prioridade/próxima ação, último registro ou empresa/cargo.
+- Abra **Ver análise e histórico de contato** para ler o conteúdo completo sem sobrecarregar a lista.
 - Clique em **Abrir vaga →** para acessar o anúncio original.
 
 ## Atualizar seu acompanhamento
 
 1. Abra **Atualizar acompanhamento** no cartão da vaga.
 2. Escolha o **Status** e a **Resposta do recrutador**.
-3. Preencha, quando houver, a data e hora da entrevista, a remuneração confirmada e as observações/próxima ação.
-4. Clique em **Salvar alterações**.
+3. Preencha, quando houver, a data e hora da entrevista, a remuneração confirmada e as observações.
+4. Defina **Próxima ação**, **Data de acompanhamento** e **Prioridade**. A visão geral destaca até seis ações; datas anteriores ao dia atual de Brasília aparecem como atrasadas.
+5. Clique em **Salvar alterações**.
 
 As entrevistas devem ser registradas no horário de **Brasília**. O campo de remuneração aceita texto: informe moeda, valor e periodicidade, por exemplo, `USD 8.500/mês bruto`.
 
@@ -46,7 +58,7 @@ Para incorporar suas alterações à próxima atualização publicada, envie ess
 
 No outro navegador/dispositivo, abra o site, clique em **Importar backup** e selecione o JSON exportado. A importação combina os registros e preserva o mais recente de cada vaga. O limite é de 2 MB; arquivos com formato ou registros inválidos são recusados.
 
-O backup contém as alterações manuais, e não uma cópia completa da lista de vagas.
+O backup contém as alterações manuais, e não uma cópia completa da lista de vagas. Backups antigos continuam aceitos; os novos campos de ação, data e prioridade são opcionais.
 
 ### Baixar HTML atualizado
 
@@ -77,5 +89,9 @@ O site é estático: abrir a página ou deixá-la aberta não executa a busca ne
 O GitHub Pages publica a branch **main**, pasta **/ (root)**. Após um commit, aguarde a execução **pages build and deployment** concluir em **Actions**. Se a página continuar mostrando a versão anterior, recarregue-a após a publicação.
 
 O projeto usa HTML, CSS e JavaScript sem dependências externas, servidor de aplicação ou etapa de compilação.
+
+O `index.html` permanece autossuficiente para abrir diretamente no navegador e gerar uma cópia portátil. A interface reorganiza os registros publicados na inicialização, preservando as vagas e os relatos completos na fonte. Os identificadores antigos de LinkedIn, Greenhouse, Gupy, Lever, CI&T e SmartRecruiters são aceitos na importação.
+
+Para executar a verificação de regressão com Playwright e um navegador Chromium instalados: `node tests/tracker.cjs [caminho-do-playwright] [caminho-do-navegador]`. Ela usa um perfil temporário e verifica navegação, filtros, edição, persistência, backups e reabertura do HTML exportado em telas desktop e mobile.
 
 O repositório e o site são públicos. Observações salvas apenas localmente não aparecem na versão pública; ao incorporar um backup ou HTML ao repositório, esses dados passam a integrar o conteúdo publicado.

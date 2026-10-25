@@ -21,9 +21,22 @@ button{cursor:pointer}button:hover{background:#263957}button:focus-visible,input
 .tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.tools label{display:flex;gap:8px;align-items:center}.summary{display:flex;gap:20px;flex-wrap:wrap;margin:16px 0;color:#bdd3f5}
 .edit{margin-top:18px;border-top:1px solid #34435d;padding-top:15px}.edit summary{cursor:pointer;font-weight:bold;color:#a7c7ff;padding:7px 0}.edit-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:15px 0}.edit-fields label{display:flex;flex-direction:column;gap:7px;font-size:14px}.edit-fields .wide{grid-column:1/-1}.edit-fields textarea{min-height:95px;resize:vertical}.manual-status{font-weight:bold;color:#98d9cc;margin:12px 0}.notice{min-height:24px;color:#a9e8ce}.hint{font-size:14px;color:#aabbd5;line-height:1.6}.job[hidden]{display:none}.box b{overflow-wrap:anywhere}h2{line-height:1.3}details.record{margin-top:10px}.date-view{font-weight:normal;color:#bbc8dd;font-size:14px}
 @media(max-width:700px){.edit-fields{grid-template-columns:1fr}.tools label{width:100%}.tools select,.tools input{width:100%}}
+/* Dashboard: the published data below remains readable without JavaScript. */
+:root{color-scheme:light;--ink:#20372f;--muted:#68786f;--line:#dce5df;--green:#246c51;--surface:#fff;--bg:#f5f7f3}
+*{box-sizing:border-box}body{font-family:Inter,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:14px;line-height:1.55}
+a{color:var(--green)}button,input,select,textarea{background:white;color:var(--ink);border:1px solid #cbd7cf;border-radius:8px;font-size:14px}button:hover{background:#edf4ee}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid #49a681;outline-offset:3px}button{font-weight:600}input,select{min-height:42px}button,input,select,textarea{max-width:100%}[hidden]{display:none!important}
+.wrap{max-width:1240px;padding:32px 36px 64px;margin:0 auto}.app-layout .wrap{margin-left:232px;max-width:1600px}.sidebar{position:fixed;inset:0 auto 0 0;width:232px;background:#fcfdfb;border-right:1px solid var(--line);padding:30px 20px;display:flex;flex-direction:column;gap:30px;z-index:10}.brand{font-size:20px;font-weight:750;letter-spacing:-.7px;display:flex;gap:10px;align-items:center}.brand-mark{background:var(--green);color:white;border-radius:10px;padding:5px 10px;font-size:17px}.brand small{display:block;color:var(--muted);font-weight:400;font-size:11px;letter-spacing:1.5px;text-transform:uppercase}.nav{display:grid;gap:7px}.nav button{border:0;background:transparent;text-align:left;color:var(--muted);padding:12px 14px}.nav button[aria-current="page"]{color:var(--green);background:#e8f1e9}.nav button span{display:inline-block;width:26px}.sidebar-footer{margin-top:auto;font-size:12px;color:var(--muted);padding:14px 8px;border-top:1px solid var(--line)}.sidebar-footer b{display:block;color:var(--ink)}
+.eyebrow{color:var(--green);font-size:11px;font-weight:700;letter-spacing:1.7px;text-transform:uppercase}.page-header{display:flex;justify-content:space-between;gap:20px;align-items:center;margin:8px 0 28px}.page-header h1{font-size:32px;letter-spacing:-1.2px;font-weight:650;margin:5px 0}.page-header p{color:var(--muted);margin:0}.local-pill{font-size:12px;border:1px solid var(--line);border-radius:20px;background:#fff;padding:7px 13px;white-space:nowrap}.local-pill::before{content:"";display:inline-block;width:7px;height:7px;background:#399269;border-radius:50%;margin-right:7px}
+.card,.job{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin:0 0 14px;padding:22px;box-shadow:0 2px 3px #243b2c03}.meta,.hint{color:var(--muted)}.hint{font-size:13px}.box{background:#f7f9f6;border-color:#e6ece6;border-radius:8px}.label{font-size:10px;color:var(--muted);letter-spacing:1px;margin-bottom:4px}.grid{gap:12px}.metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:26px}.metric{background:white;border:1px solid var(--line);border-radius:12px;padding:20px;text-align:left;cursor:pointer}.metric b{display:block;font-size:32px;font-weight:650;margin:5px 0}.metric span{font-size:12px;color:var(--muted)}.metric .metric-name{font-size:13px;color:var(--ink);font-weight:600}.metric.featured{background:#eaf2e9;border-color:#ccdcca}.metric.featured b{color:var(--green)}.dashboard-columns{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:22px}.section-heading{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:16px}.section-heading h2{font-size:18px;margin:0;letter-spacing:-.4px}.text-button{border:0;padding:0;background:transparent;color:var(--green);font-size:12px}.action-list{display:grid}.action-row{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:12px;padding:17px 0;border-top:1px solid #eef1ec;align-items:center}.action-icon{width:30px;height:30px;display:grid;place-items:center;background:#f0f5ef;border-radius:8px;color:var(--green)}.action-row h3{font-size:13px;margin:0 0 4px;font-weight:650}.action-row p{font-size:12px;margin:0;color:var(--muted);overflow-wrap:anywhere}.action-row button{font-size:12px;padding:7px 10px}.due-tag{color:#a04e25;font-size:11px}.empty{padding:30px 18px;text-align:center;border:1px dashed var(--line);border-radius:10px;color:var(--muted)}.pipeline-row{display:grid;grid-template-columns:120px 1fr 22px;gap:12px;align-items:center;font-size:12px;margin:18px 0}.pipeline-track{height:7px;background:#eef2ec;border-radius:8px;overflow:hidden}.pipeline-fill{height:100%;background:#689c7a;border-radius:8px}.target-card{background:#eaf0e5}.target-card h2{font-size:17px}.target-card strong{font-size:23px;font-weight:650;display:block;margin:8px 0}.target-card p{color:#526a56;font-size:12px;margin:5px 0}.target-card .eyebrow{color:#526a56}.round-preview{color:var(--muted);font-size:13px;line-height:1.7}
+.view-title{font-size:23px;letter-spacing:-.6px;margin:0 0 6px}.view-intro{color:var(--muted);margin:0 0 24px}.toolbar{background:white;border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:16px 0}.filter-row{display:flex;gap:12px;align-items:end;flex-wrap:wrap}.filter-row label{display:grid;gap:5px;font-size:11px;color:var(--muted)}.filter-row label:first-child{flex:1;min-width:180px}.filter-row input{width:100%}.stage-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 10px}.stage-tabs button{border:1px solid transparent;background:transparent;color:var(--muted);padding:8px 13px;font-size:12px}.stage-tabs button[aria-pressed="true"]{color:var(--green);border-color:#c8dbcb;background:#e8f1e9}.result-count{color:var(--muted);font-size:12px;margin:14px 0}.job h2{font-size:18px;letter-spacing:-.3px;margin:0}.job>.meta{font-size:12px;margin:5px 0 12px}.job .grid{margin:12px 0}.job .box{font-size:12px}.job .box b{font-weight:550}.job .box:last-child{background:#edf4ee}.job[data-status="nao_priorizar"] .box:last-child,.job[data-status="encerrada"] .box:last-child{background:#f3f3ef}.job-details{margin:14px 0;border-top:1px solid var(--line);padding-top:10px}.job-details summary{cursor:pointer;color:var(--muted);font-size:12px;font-weight:600}.job-details p{font-size:13px;line-height:1.8;color:#526359}.job>a{font-size:12px;display:inline-block;margin-right:14px}.edit{border-color:var(--line);margin-top:14px;padding-top:8px}.edit summary{font-size:12px;color:var(--green)}.edit-fields label{font-size:12px}.edit button[type="submit"]{background:var(--green);color:#fff;border-color:var(--green)}.manual-status{font-size:12px;font-weight:400;color:var(--muted)}.manual-status:empty{display:none}.next-action{font-size:12px;background:#f4f7f0;border-left:3px solid #9cb58c;padding:10px 12px;margin:12px 0;overflow-wrap:anywhere}.next-action b{display:block}.history-entry{background:white;border:1px solid var(--line);border-radius:10px;margin:12px 0;padding:18px 22px}.history-entry>summary{cursor:pointer;font-size:14px;font-weight:650}.history-entry p,.history-entry li{font-size:13px;line-height:1.8;color:#526359}.history-entry .card{border:0;padding:18px 0 0;margin:0;box-shadow:none}.history-entry h2{display:none}.settings-buttons{display:flex;gap:10px;flex-wrap:wrap}.notice{color:var(--green);font-size:13px;min-height:0;margin:12px 0}.notice:empty{display:none}.summary{font-size:12px;color:var(--muted)}.app-layout #tracker-summary{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.job:target{outline:2px solid #78a887}.priority-tag{display:inline-block;color:#a04e25;font-size:11px;margin-left:8px}.noscript{padding:12px;background:#fff4d7}
+@media(min-width:1500px){.jobs-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 18px;align-items:start}}
+@media(max-width:1100px){.sidebar{width:190px;padding:25px 14px}.app-layout .wrap{margin-left:190px;padding:25px}.dashboard-columns{grid-template-columns:1fr}.metric-grid{gap:10px}.metric{padding:16px}.metric b{font-size:28px}.local-pill{display:none}}
+@media(max-width:760px){.sidebar{position:static;width:100%;padding:16px;border-right:0;border-bottom:1px solid var(--line);gap:16px}.brand small,.sidebar-footer{display:none}.nav{display:flex;gap:4px;overflow-x:auto}.nav button{padding:10px;white-space:nowrap;font-size:12px}.nav button span{display:none}.app-layout .wrap{margin:0;padding:24px 16px}.page-header h1{font-size:27px}.metric-grid{grid-template-columns:1fr 1fr;gap:10px}.metric{padding:14px}.grid{grid-template-columns:1fr}.job .grid{grid-template-columns:1fr 1fr}.job .box:last-child{grid-column:1/-1}.action-row{grid-template-columns:28px minmax(0,1fr) auto;gap:8px}.card,.job{padding:18px}.filter-row label{flex:1;min-width:130px}.edit-fields{grid-template-columns:1fr}.page-header{margin-top:0}.action-row button{padding:6px}.stage-tabs{gap:2px}.stage-tabs button{padding:7px 10px}.tools label{width:auto}}
+.filter-row label{grid-template-columns:minmax(0,1fr)}.filter-row select{width:100%;min-width:0}.edit-fields input,.edit-fields select,.edit-fields textarea{width:100%;min-width:0}
 </style>
 </head>
 <body>
+<noscript><p class="noscript">Ative o JavaScript para usar o painel e salvar alterações. Os registros publicados continuam disponíveis abaixo.</p></noscript>
 <div class="wrap">
 <h1>Job Application Tracker</h1>
 <p class="meta">Vitor Tee How · Senior Database Engineer / DBA · Atualizado em 24/10/2026 · rodada da manhã (Brasília)</p>
@@ -292,6 +305,7 @@ button{cursor:pointer}button:hover{background:#263957}button:focus-visible,input
 <script id="tracker-overrides" type="application/json">{"linkedin-4462091066": {"status": "informacoes", "response": "neutra", "interview": "", "salary": "", "notes": "Eymi respondeu em 14/10/2026 às 17:24 (Brasília): orientou candidatura pelo portal BairesDev e informou não estar em um processo específico. Sem confirmação de salário. Vitor agradeceu às 17:51. Resposta conferida em 15/10/2026. Confirmar orçamento e peso de C#/.NET/Blazor; não há candidatura enviada.", "updatedAt": "2026-10-14T20:24:00Z"}, "linkedin-4417353249": {"status": "encerrada", "response": "", "interview": "", "salary": "", "notes": "Verificação de 18/10/2026: LinkedIn informa No longer accepting applications. Sem salário publicado; nenhum envio.", "updatedAt": "2026-10-18T11:10:00Z"}, "url-https://npsprism.applytojob.com/apply/oQHFo7S7hi/Senior-SQL-Database-Administrator-DBA-Brazil-Remote": {"status": "encerrada", "response": "", "interview": "", "salary": "", "notes": "Verificação de 18/10/2026: Página oficial do anúncio retornou HTTP 410 Gone; a lista atual de carreiras não inclui esta função. Não considerar resultados em WWR/agregadores como vaga aberta. Sem candidatura ou consulta.", "updatedAt": "2026-10-18T11:10:00Z"}, "linkedin-4359186835": {"status": "encerrada", "response": "", "interview": "", "salary": "", "notes": "Verificação de 18/10/2026: LinkedIn informa No longer accepting applications. Salário não publicado, Azure/AWS e mirroring exigidos. Sem candidatura ou consulta.", "updatedAt": "2026-10-18T11:10:00Z"}, "linkedin-4382921468": {"status": "encerrada", "response": "", "interview": "", "salary": "", "notes": "Verificação de 18/10/2026: Anúncio LinkedIn Costa Rica 4382921468 informa encerramento. Portal oficial de carreiras direciona ao Lever, cuja lista atual não contém Oracle/Database. Estimativas em reais de agregadores não são remuneração da empresa. Nenhuma candidatura ou consulta.", "updatedAt": "2026-10-18T11:10:00Z"}, "url-https://embracesoftwareinc.zohorecruit.com/jobs/Careers/720166000042260114/Senior-Database-Administrator": {"status": "contato", "response": "", "interview": "", "salary": "", "notes": "Portal oficial Zoho acessível com botão de interesse, abertura em 30/07/2026. Exige 5+ anos de SQL Server 2016–2022 em produção 24×7, HA/DR, automação PowerShell/Bash, cloud e partições em tabelas grandes; não pressupor esse domínio pelo currículo. Exige sobreposição de 4 horas com Eastern Time, mas benefícios mencionam horário britânico. Remotive informa EST; outros agregadores dizem EUA. Brasil não confirmado. Contato Saranya M, Talent Acquisition Specialist atual da Embrace, validado no LinkedIn e em anúncios da empresa. Histórico pesquisado no tracker, Gmail e LinkedIn sem contato prévio localizado. InMail enviado em 20/10/2026 às 08:08 (Brasília), confirmado na conversa com texto enviado e aviso de aguardar resposta; usado 1 crédito existente, sem compra. Perguntados abertura, Brasil, faixa bruta/moeda/periodicidade, contrato, plantão, fuso e peso de HA/DR/cloud/scripting; inglês declarado Intermediate/Advanced. Sem currículo anexado e sem candidatura.", "updatedAt": "2026-10-20T11:08:00Z"}, "url-https://www.cybertec-postgresql.com/en/jobs-and-opportunities/migration-expert": {"status": "encerrada", "response": "", "interview": "", "salary": "", "notes": "Pista encontrada em Himalayas/Remotive e na indexação do site. Em 20/10/2026, URL oficial redireciona à página de carreiras, que informa não estar contratando no momento. Não considerar a antiga vaga aberta. A descrição indexada exigia 10+ anos de SQL Server/T-SQL e ampla experiência em migração, PostgreSQL e JIRA/ITSM, sem comprovação de todos esses requisitos no currículo. Nenhuma candidatura, envio de CV ou consulta.", "updatedAt": "2026-10-20T11:08:00Z"}, "greenhouse-6218619004": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "Portal oficial mantém Apply Now e informa Work Type: Hybrid, Location: São Paulo. Exige cloud/híbrido, preferencialmente AWS, e conhecimento forte de HA/DR. Inglês avançado. Não atende remoto integral de Belo Horizonte e não possui faixa publicada. Nenhuma candidatura ou abordagem.", "updatedAt": "2026-10-20T11:08:00Z"}, "greenhouse-6207483004": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "Formulário oficial ativo. Anúncio exige presença em São Paulo duas vezes por semana e escala 12×36, das 10h às 22h. Inglês Upper-Intermediate. Sem remuneração publicada e incompatível com trabalho integral a partir de Belo Horizonte. Nenhuma candidatura ou contato.", "updatedAt": "2026-10-20T11:08:00Z"}, "url-https://www.workingnomads.com/jobs/senior-database-administrator-finalsite-1927194": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "Anúncio publicado em 08/10/2026 e ainda listado. A própria ficha marca USA e a vaga oficial redirecionada não ficou acessível para validação direta. A faixa de USD 135 mil–165 mil/ano aparece como employer provided em fontes de emprego, acima do alvo. Exige domínio profundo de MSSQL (SSIS, SSAS e SSRS), PostgreSQL, MySQL, MongoDB, GCP e AWS. O fato de a empresa ter pessoas na América do Sul não comprova elegibilidade desta vaga para o Brasil. Nenhuma candidatura ou contato.", "updatedAt": "2026-10-21T11:10:00Z"}, "url-https://www.theladders.com/job/senior-sql-database-administrator-cardinal-technology-systems-corp-virtual-travel_89384791": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "A descrição completa exige IT-I/NACLC, cujo requisito básico inclui cidadania dos EUA, além de certificações DoD/IAT e Microsoft específicas. A página ainda sinaliza que a vaga pode não estar disponível. O valor exibido é explicitamente Ladders Estimates e não foi tratado como remuneração oficial. Nenhum Apply4Me, compra, contato ou candidatura.", "updatedAt": "2026-10-21T11:10:00Z"}, "gupy-12613336": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "Portal oficial Gupy confirma publicação em 28/09/2026 e inscrições até 30/12/2026. O texto pede SQL Server, MySQL, PostgreSQL, bancos críticos, tuning, AlwaysOn, Zabbix e Grafana; Oracle, RMAN, OEM e AWS aparecem como diferenciais. Embora agregadores rotulem a vaga como remota, o oficial informa local de trabalho em Alphaville, Barueri/SP e oferece estacionamento ou vale-transporte, sem confirmar trabalho remoto a partir de Belo Horizonte. Não há faixa salarial. Nenhuma candidatura ou contato.", "updatedAt": "2026-10-22T11:10:00Z"}, "ciandt-31771": {"status": "encerrada", "response": "", "interview": "", "salary": "", "notes": "Resultados indexados e agregadores ainda exibem a Job 31771 como remota no Brasil. Em 22/10/2026, porém, a lista oficial de oportunidades da CI&T não contém Senior DBA nem o identificador 31771. O destino Lever indicado por agregadores não foi localizado na lista oficial. Estimativas salariais de terceiros não foram tratadas como remuneração da empresa. Nenhuma candidatura ou consulta.", "updatedAt": "2026-10-22T11:10:00Z"}, "url-https://himalayas.app/companies/micro1/jobs/senior-database-reliability-engineer": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "Reconferida em 22/10/2026: página oficial acessível e republicação para Latin America. Exige PostgreSQL profundo, AWS RDS/Aurora, HA, backup/recovery e failover em grande escala, requisitos centrais não comprovados. Indexações divergem entre USD 120k–150k/ano e até USD 7k/mês. Sem candidatura ou contato duplicado.", "updatedAt": "2026-10-22T11:10:00Z"}, "lever-12fdfa2c-4a51-40ea-b6ae-3bcdad9dbc4b": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "Portal oficial Lever mantém candidatura aberta e confirma home office remoto no Brasil. A função lidera arquitetura e execução de migração de bancos on-premises para serviços gerenciados Azure. Exige experiência sólida em arquitetura e implantação de dados na Azure, microsserviços, eventos, filas, CI/CD e TDD. O currículo confirma migrações, modelagem, requisitos e Azure Fundamentals, mas não prática sólida nesses requisitos cloud. A remuneração não é divulgada. Nenhuma candidatura ou contato.", "updatedAt": "2026-10-23T11:10:00Z"}, "smartrecruiters-744000154640379": {"status": "nao_priorizar", "response": "", "interview": "", "salary": "", "notes": "Portal oficial SmartRecruiters mantém o botão de interesse e informa trabalho híbrido em Belo Horizonte. A vaga exige MSSQL e PostgreSQL, tuning, backup, replicação, clustering, failover, Azure SQL/Managed Instance, automação e Terraform, além de inglês avançado escrito e falado. O currículo confirma inglês Intermediate/Advanced e Azure Fundamentals, não experiência prática avançada em Azure, Terraform ou HA/DR. Sem faixa salarial e fora do requisito de trabalho remoto. Nenhuma candidatura ou contato.", "updatedAt": "2026-10-23T11:10:00Z"}}</script>
 <script>
 "use strict";
+const sourceHTML = document.documentElement.outerHTML;
 const STORAGE_KEY = "vitor-job-tracker-manual-v1";
 const STATUS_OPTIONS = [
   ["triagem","Em análise"],["informacoes","Aguardando informações"],["contato","Recrutador contatado"],
@@ -300,7 +314,7 @@ const STATUS_OPTIONS = [
   ["aprovado","Aprovado"],["reprovado","Reprovado"],["encerrada","Vaga encerrada"],["desistiu","Desisti"],["nao_priorizar","Não priorizar"]
 ];
 const STATUS_LABELS = Object.fromEntries(STATUS_OPTIONS);
-const FIELDS = ["status","response","interview","salary","notes","updatedAt"];
+const FIELDS = ["status","response","interview","salary","notes","nextAction","due","priority","updatedAt"];
 function validRecord(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   if (!Object.hasOwn(STATUS_LABELS,value.status)) return false;
@@ -311,7 +325,7 @@ function cleanRecords(input) {
   const output = Object.create(null);
   if (!input || typeof input !== "object" || Array.isArray(input)) return output;
   for (const [key,value] of Object.entries(input)) {
-    if (!validRecord(value) || !/^(linkedin-\d+|greenhouse-\d+|url-.+)$/.test(key)) continue;
+    if (!validRecord(value) || !/^(linkedin-\d+|greenhouse-\d+|url-.+|gupy-\d+|ciandt-\d+|lever-[\w-]+|smartrecruiters-\d+)$/.test(key)) continue;
     output[key] = Object.fromEntries(FIELDS.map(field => [field,value[field] || ""]));
   }
   return output;
@@ -346,12 +360,22 @@ function defaultStatus(text) {
   if (text.includes("Consulta salarial enviada")) return "contato";
   if (text.includes("Não priorizar")) return "nao_priorizar";
   if (text.includes("Confirmar")) return "informacoes";
+  if (/encerrad|não aceita|não disponível/i.test(text)) return "encerrada";
+  if (/aguardando|consulta.*enviada|contato.*enviado/i.test(text)) return "contato";
   return "triagem";
 }
 function option(value,label) { const item=document.createElement("option");item.value=value;item.textContent=label;return item; }
 const cards = [...document.querySelectorAll(".job")].map((card,index) => {
   const link = [...card.querySelectorAll("a")].find(a => a.textContent.includes("Abrir vaga"));
-  const key=keyFor(link.href);
+  const canonical=keyFor(link.href);
+  const provider=link.href.match(/gupy\.io\/jobs\/(\d+)/)?.[1];
+  const lever=link.href.match(/lever\.co\/[^/]+\/([\w-]+)/)?.[1];
+  const smart=link.href.match(/smartrecruiters\.com\/[^/]+\/(\d+)/)?.[1];
+  const ciandt=/ciandt\.com/.test(link.href) && card.querySelector("h2").textContent.includes("31771") ? "31771" : "";
+  const aliases=[canonical,provider && "gupy-"+provider,lever && "lever-"+lever,smart && "smartrecruiters-"+smart,ciandt && "ciandt-"+ciandt].filter(Boolean);
+  const key=aliases.find(id=>records[id]) || canonical;
+  const latest=aliases.filter(id=>records[id]).sort((a,b)=>(records[b].updatedAt || "").localeCompare(records[a].updatedAt || ""))[0];
+  if(latest)records[key]=records[latest];
   const statusBox = [...card.querySelectorAll(".box")].find(box => box.querySelector(".label")?.textContent === "Status");
   const initial = statusBox.querySelector("b").textContent;
   const defaults={status:defaultStatus(initial),response:"",interview:"",salary:"",notes:"",updatedAt:""};
@@ -364,20 +388,24 @@ const cards = [...document.querySelectorAll(".job")].map((card,index) => {
   function render() {
     const value=state();for(const field of FIELDS.filter(f=>f!=="updatedAt")) form.elements[field].value=value[field] || "";
     statusBox.querySelector("b").textContent=STATUS_LABELS[value.status];
+    card.dataset.status=value.status;
     const parts=[];
     if(value.response) parts.push("Resposta: " + ({positiva:"positiva",negativa:"negativa",neutra:"pedido de informações / neutra"})[value.response]);
     if(value.interview) parts.push("Entrevista: " + value.interview.replace("T"," às ") + " (Brasília)");
     if(value.salary) parts.push("Remuneração: " + value.salary);
-    if(value.updatedAt) parts.push("Atualizado por você: " + new Date(value.updatedAt).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo"}));
+    if(value.updatedAt) parts.push("Último registro: " + new Date(value.updatedAt).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo"}));
     manual.textContent=parts.join(" · ");
   }
   form.addEventListener("submit",event=>{
     event.preventDefault();const data=new FormData(form);
-    const value={status:data.get("status"),response:data.get("response"),interview:data.get("interview"),salary:data.get("salary"),notes:data.get("notes"),updatedAt:new Date().toISOString()};
+    const value=Object.fromEntries(FIELDS.map(field=>[field,field==="updatedAt" ? new Date().toISOString() : data.get(field) || ""]));
     if(!validRecord(value)) {tell("Verifique os campos antes de salvar.");return;}
     records[key]=value;if(persist())tell("Alterações salvas neste navegador.");render();updateView();
   });
-  render();return {key,card,state,render,title:card.querySelector("h2").textContent};
+  const scheduling=document.createElement("div");scheduling.className="edit-fields";
+  scheduling.innerHTML='<label class="wide">Próxima ação<input name="nextAction" maxlength="500" placeholder="Ex.: Conferir resposta do recrutador"></label><label>Data de acompanhamento<input name="due" type="date"></label><label>Prioridade<select name="priority"><option value="">Normal</option><option value="alta">Alta</option><option value="baixa">Baixa</option></select></label>';
+  form.insertBefore(scheduling,form.querySelector("button"));
+  render();return {key,card,state,render,index,title:card.querySelector("h2").textContent};
 });
 const filter=document.getElementById("filter-status");STATUS_OPTIONS.forEach(([value,label]) => filter.append(option(value,label)));
 function updateView() {
@@ -385,6 +413,7 @@ function updateView() {
   for(const job of cards)job.card.hidden=(!job.title.toLocaleLowerCase("pt-BR").includes(query) || (selected && job.state().status!==selected));
   const count=statuses=>cards.filter(job=>statuses.includes(job.state().status)).length;
   document.getElementById("tracker-summary").textContent=`${cards.length} vagas · ${count(["enviada","positiva","negativa","entrevista","entrevistado","proposta","aprovado","reprovado"])} candidaturas / processos · ${count(["contato"])} contatos pendentes · ${count(["entrevista"])} entrevistas marcadas`;
+  refreshDashboard();
 }
 document.getElementById("search-jobs").addEventListener("input",updateView);filter.addEventListener("change",updateView);
 function download(content,mime,name) {
@@ -406,8 +435,8 @@ document.getElementById("backup-file").addEventListener("change",async event=>{
   event.target.value="";
 });
 document.getElementById("download-html").addEventListener("click",()=>{
-  // Export the original page structure, not the live editors, so initialization remains idempotent.
-  const clone=document.documentElement.cloneNode(true);
+  // Rebuild from source so navigation, compact details and editors never duplicate.
+  const clone=new DOMParser().parseFromString(sourceHTML,"text/html").documentElement;
   clone.querySelectorAll(".edit,.manual-status").forEach(el=>el.remove());
   clone.querySelector("#tracker-overrides").textContent=JSON.stringify(records).replace(/</g,"\\u003c");
   clone.querySelector("#filter-status").innerHTML='<option value="">Todos</option>';
@@ -415,6 +444,96 @@ document.getElementById("download-html").addEventListener("click",()=>{
   clone.querySelector("#search-jobs").removeAttribute("value");clone.querySelectorAll(".job[hidden]").forEach(el=>el.removeAttribute("hidden"));
   download("<!doctype html>\n"+clone.outerHTML,"text/html;charset=utf-8","vitor_job_application_tracker.html");tell("HTML exportado com suas alterações. Abra o arquivo para conferir ou envie para atualizar a versão publicada.");
 });
+const ARCHIVED = ["negativa","reprovado","encerrada","desistiu","nao_priorizar"];
+const PROCESS = ["enviada","positiva","entrevista","entrevistado","proposta","aprovado"];
+const WAITING = ["contato","informacoes"];
+let currentStage="active";
+const wrap=document.querySelector(".wrap");
+const originalChildren=[...wrap.children];
+const profile=originalChildren.find(el=>el.matches("p.meta"));
+const target=originalChildren.find(el=>el.matches(".card"));
+const sources=document.querySelector('[aria-label="Fontes regulares de pesquisa"]');
+const oldTools=document.querySelector('[aria-label="Gerenciar candidaturas"]');
+const sidebar=document.createElement("aside");sidebar.className="sidebar";
+sidebar.innerHTML=`<div class="brand"><span class="brand-mark">V.</span><div>Job tracker<small>Carreira em movimento</small></div></div><nav class="nav" aria-label="Navegação principal"><button data-view="overview" aria-current="page"><span>◫</span>Visão geral</button><button data-view="jobs"><span>▤</span>Vagas</button><button data-view="history"><span>◷</span>Histórico</button><button data-view="settings"><span>⚙</span>Dados e critérios</button></nav><div class="sidebar-footer"><b>Vitor Tee How</b>Senior Database Engineer / DBA<br>Horários de Brasília</div>`;
+document.body.prepend(sidebar);document.body.classList.add("app-layout");
+const header=document.createElement("header");header.className="page-header";
+header.innerHTML='<div><div class="eyebrow">Seu próximo capítulo</div><h1>Seu radar de oportunidades</h1><p>Clareza para acompanhar cada conversa e cada próximo passo.</p></div><span class="local-pill">Dados salvos neste navegador</span>';
+wrap.prepend(header);
+const views={};
+for(const id of ["overview","jobs","history","settings"]){const section=document.createElement("section");section.id="view-"+id;section.hidden=id!=="overview";views[id]=section;wrap.append(section);}
+views.overview.innerHTML=`<div id="metrics" class="metric-grid"></div><div class="dashboard-columns"><div><section class="card"><div class="section-heading"><h2>Próximos passos</h2><button class="text-button" id="see-active">Ver vagas ativas →</button></div><p class="hint">Ações e datas definidas por você, seguidas dos processos em andamento.</p><div id="action-list" class="action-list"></div></section><section class="card"><div class="section-heading"><h2>Última rodada de pesquisa</h2><button class="text-button" id="see-history">Abrir histórico →</button></div><div id="round-preview" class="round-preview"></div></section></div><div><section class="card"><div class="section-heading"><h2>Etapas do acompanhamento</h2></div><div id="pipeline"></div><p class="hint">Visão de todas as vagas registradas.</p></section><section class="card target-card"><div class="eyebrow">Objetivo profissional</div><strong>USD 100k–120k / ano</strong><p>Remoto · Brasil, LATAM ou worldwide</p><p>Oracle · SQL Server · PostgreSQL</p><p>Remuneração bruta alvo. Elegibilidade e requisitos precisam ser confirmados em cada vaga.</p></section></div></div>`;
+views.jobs.innerHTML=`<h2 class="view-title">Todas as oportunidades</h2><p class="view-intro">Encontre a vaga, confira a etapa e registre o próximo movimento.</p><div class="stage-tabs" role="group" aria-label="Etapas"><button data-stage="active" aria-pressed="true">Ativas</button><button data-stage="process" aria-pressed="false">Em processo</button><button data-stage="waiting" aria-pressed="false">Aguardando</button><button data-stage="archive" aria-pressed="false">Arquivo</button><button data-stage="all" aria-pressed="false">Todas</button></div><div class="toolbar"><div class="filter-row" id="job-filters"></div></div><p id="result-count" class="result-count" role="status"></p><div id="jobs-list" class="jobs-grid"></div><div id="jobs-empty" class="empty" hidden>Nenhuma vaga encontrada com estes filtros. <button id="clear-filters" class="text-button">Limpar filtros</button></div>`;
+const filterRow=document.getElementById("job-filters");
+for(const id of ["search-jobs","filter-status"])filterRow.append(document.getElementById(id).parentElement);
+const sortLabel=document.createElement("label");sortLabel.innerHTML='Ordenar por<select id="sort-jobs"><option value="priority">Prioridade e próxima ação</option><option value="updated">Último registro</option><option value="company">Empresa / cargo (A–Z)</option></select>';filterRow.append(sortLabel);
+document.getElementById("search-jobs").placeholder="Buscar empresa, cargo ou observação";
+views.history.innerHTML='<h2 class="view-title">Histórico de pesquisa</h2><p class="view-intro">Rodadas e verificações preservadas. Abra uma entrada para consultar o relato completo.</p>';
+views.settings.innerHTML='<h2 class="view-title">Dados e critérios</h2><p class="view-intro">Seus objetivos, fontes de pesquisa e cópias do acompanhamento.</p><section class="card"><h2>Backup e transferência</h2><p class="hint">As alterações ficam neste navegador. Exporte um backup para transferir os registros ou baixe o painel completo para guardar uma cópia. A publicação online depende da atualização do repositório.</p><div id="settings-buttons" class="settings-buttons"></div></section>';
+for(const id of ["export-backup","import-backup","download-html","backup-file"])document.getElementById("settings-buttons").append(document.getElementById(id));
+views.settings.append(target,sources);
+const globalNotice=document.getElementById("tracker-notice");globalNotice.setAttribute("aria-live","polite");header.after(globalNotice);
+wrap.append(document.getElementById("tracker-summary"));
+const history=[];
+for(const node of originalChildren){
+  if(node===target || node===sources || node===oldTools || node.matches(".job"))continue;
+  if(node.matches(".card")){
+    const heading=node.querySelector("h2");
+    if(heading){const detail=document.createElement("details");detail.className="history-entry";const summary=document.createElement("summary");summary.textContent=heading.textContent;detail.append(summary,node);views.history.append(detail);history.push(node);}
+    else views.settings.append(node);
+  }else node.remove();
+}
+oldTools.remove();
+if(profile){const p=document.createElement("p");p.className="hint";p.textContent=profile.textContent;views.settings.append(p);}
+const latest=history.find(node=>/Rodada/i.test(node.querySelector("h2")?.textContent || ""));
+if(latest){const title=document.createElement("b");title.textContent=latest.querySelector("h2").textContent;const p=document.createElement("p");p.textContent=latest.querySelector("p")?.textContent || "";document.getElementById("round-preview").append(title,p);}
+for(const job of cards){
+  job.card.id="job-"+job.index;
+  const detail=document.createElement("details");detail.className="job-details";const summary=document.createElement("summary");summary.textContent="Ver análise e histórico de contato";detail.append(summary);
+  for(const node of [...job.card.children])if(node.matches("p:not(.meta):not(.manual-status),details.record"))detail.append(node);
+  job.card.insertBefore(detail,job.card.querySelector(".manual-status"));
+  const next=document.createElement("div");next.className="next-action";job.card.insertBefore(next,detail);job.nextElement=next;
+  document.getElementById("jobs-list").append(job.card);
+  for(const link of job.card.querySelectorAll('a[target="_blank"]'))link.rel="noopener noreferrer";
+}
+function showView(id){
+  for(const [name,view]of Object.entries(views))view.hidden=name!==id;
+  for(const button of sidebar.querySelectorAll("[data-view]")){if(button.dataset.view===id)button.setAttribute("aria-current","page");else button.removeAttribute("aria-current");}
+}
+function setStage(stage){currentStage=stage;for(const button of document.querySelectorAll("[data-stage]"))button.setAttribute("aria-pressed",String(button.dataset.stage===stage));updateView();}
+sidebar.addEventListener("click",event=>{const button=event.target.closest("[data-view]");if(button)showView(button.dataset.view);});
+document.querySelector(".stage-tabs").addEventListener("click",event=>{const button=event.target.closest("[data-stage]");if(button)setStage(button.dataset.stage);});
+document.getElementById("see-active").onclick=()=>{showView("jobs");setStage("active");};
+document.getElementById("see-history").onclick=()=>showView("history");
+document.getElementById("sort-jobs").onchange=updateView;
+document.getElementById("clear-filters").onclick=()=>{document.getElementById("search-jobs").value="";filter.value="";setStage("all");};
+function todayBrasilia(){return new Intl.DateTimeFormat("en-CA",{timeZone:"America/Sao_Paulo",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());}
+function dueLabel(due){if(!due)return "";const date=due.split("-").reverse().join("/");return due<todayBrasilia()?"Atrasada · "+date:due===todayBrasilia()?"Hoje · "+date:date;}
+function suggestedAction(job){const value=job.state();if(value.nextAction)return value.nextAction;if(value.status==="entrevista")return "Preparar e conferir a entrevista";if(value.status==="proposta")return "Analisar a proposta recebida";if(value.status==="enviada")return "Acompanhar retorno da candidatura";if(value.status==="contato")return "Acompanhar resposta do contato";if(value.status==="informacoes")return "Confirmar informações pendentes";if(value.status==="positiva" || value.status==="entrevistado")return "Conferir o próximo passo do processo";return "Revisar aderência e requisitos";}
+function jobOrder(a,b){const rank={alta:0,"":1,baixa:2};const priority=(rank[a.state().priority || ""] ?? 1)-(rank[b.state().priority || ""] ?? 1);return priority || (a.state().due || "9999").localeCompare(b.state().due || "9999") || Number(!PROCESS.includes(a.state().status))-Number(!PROCESS.includes(b.state().status)) || b.state().updatedAt.localeCompare(a.state().updatedAt) || a.index-b.index;}
+function openJob(job){filter.value="";document.getElementById("search-jobs").value="";showView("jobs");setStage("all");job.card.querySelector(".edit").open=true;job.card.scrollIntoView({block:"start",behavior:"smooth"});job.card.querySelector(".edit summary").focus({preventScroll:true});}
+function refreshDashboard(){
+  if(!document.getElementById("metrics"))return;
+  const count=list=>cards.filter(job=>list.includes(job.state().status)).length;
+  const active=cards.filter(job=>!ARCHIVED.includes(job.state().status));
+  const metrics=document.getElementById("metrics");metrics.replaceChildren();
+  for(const [label,total,hint,stage]of [["Oportunidades ativas",active.length,"Entre análise e decisão","active"],["Em processo",count(PROCESS),"Candidaturas e etapas seguintes","process"],["Aguardando retorno",count(WAITING),"Contatos e informações","waiting"],["Entrevistas marcadas",count(["entrevista"]),"Prepare seu próximo encontro","interviews"]]){
+    const button=document.createElement("button");button.className="metric"+(stage==="active"?" featured":"");const name=document.createElement("span");name.className="metric-name";name.textContent=label;const number=document.createElement("b");number.textContent=total;const note=document.createElement("span");note.textContent=hint;button.append(name,number,note);button.onclick=()=>{showView("jobs");filter.value=stage==="interviews"?"entrevista":"";document.getElementById("search-jobs").value="";setStage(stage==="interviews"?"all":stage);};metrics.append(button);
+  }
+  const list=document.getElementById("action-list");list.replaceChildren();
+  const actions=active.filter(job=>job.state().nextAction || job.state().due || PROCESS.includes(job.state().status) || WAITING.includes(job.state().status)).sort((a,b)=>Number(!(a.state().nextAction || a.state().due))-Number(!(b.state().nextAction || b.state().due)) || jobOrder(a,b));
+  for(const job of actions.slice(0,6)){const row=document.createElement("div");row.className="action-row";const icon=document.createElement("span");icon.className="action-icon";icon.textContent=job.state().due && job.state().due<=todayBrasilia()?"!":"↗";const content=document.createElement("div");const title=document.createElement("h3");title.textContent=job.title;const note=document.createElement("p");note.textContent=suggestedAction(job);content.append(title,note);if(job.state().due){const due=document.createElement("span");due.className="due-tag";due.textContent=dueLabel(job.state().due);content.append(due);}const button=document.createElement("button");button.textContent="Acompanhar";button.onclick=()=>openJob(job);row.append(icon,content,button);list.append(row);}
+  if(!actions.length){const empty=document.createElement("p");empty.className="empty";empty.textContent="Nenhuma ação pendente. Defina um próximo passo nas suas vagas.";list.append(empty);}
+  const pipeline=document.getElementById("pipeline");pipeline.replaceChildren();
+  for(const [label,total]of [["Em análise",count(["triagem"])],["Aguardando",count(WAITING)],["Em processo",count(PROCESS)],["Arquivo",count(ARCHIVED)]]){const row=document.createElement("div");row.className="pipeline-row";const name=document.createElement("span");name.textContent=label;const track=document.createElement("div");track.className="pipeline-track";const fill=document.createElement("div");fill.className="pipeline-fill";fill.style.width=(cards.length?total/cards.length*100:0)+"%";track.append(fill);const value=document.createElement("b");value.textContent=total;row.append(name,track,value);pipeline.append(row);}
+  const query=document.getElementById("search-jobs").value.toLocaleLowerCase("pt-BR").trim();
+  const sort=document.getElementById("sort-jobs").value;
+  const sorted=[...cards].sort(sort==="company"?(a,b)=>a.title.split(" — ").slice(-1)[0].localeCompare(b.title.split(" — ").slice(-1)[0],"pt-BR"):sort==="updated"?(a,b)=>b.state().updatedAt.localeCompare(a.state().updatedAt) || a.index-b.index:jobOrder);
+  for(const job of sorted){const state=job.state();const stageOK=currentStage==="all" || (currentStage==="active" && !ARCHIVED.includes(state.status)) || (currentStage==="process" && PROCESS.includes(state.status)) || (currentStage==="waiting" && WAITING.includes(state.status)) || (currentStage==="archive" && ARCHIVED.includes(state.status));const searchable=[job.title,job.card.querySelector(".meta")?.textContent,state.notes,state.nextAction].join(" ").toLocaleLowerCase("pt-BR");job.card.hidden=!stageOK || (!!filter.value && filter.value!==state.status) || !searchable.includes(query);document.getElementById("jobs-list").append(job.card);job.nextElement.replaceChildren();job.nextElement.hidden=ARCHIVED.includes(state.status);if(!job.nextElement.hidden){const title=document.createElement("b");title.textContent=state.nextAction?"Próxima ação":"Próximo passo sugerido";const text=document.createElement("span");text.textContent=suggestedAction(job)+(state.due?" · "+dueLabel(state.due):"")+(state.priority==="alta"?" · Prioridade alta":"");job.nextElement.append(title,text);}}
+  const visible=cards.filter(job=>!job.card.hidden).length;
+  document.getElementById("result-count").textContent=`${visible} de ${cards.length} vagas · ${active.length} ativas · ${count(ARCHIVED)} no arquivo`;
+  document.getElementById("jobs-empty").hidden=visible>0;
+}
 updateView();if(!storageAvailable)tell("O armazenamento deste navegador está indisponível. Exporte backup ou HTML para preservar as alterações.");
 </script>
 
