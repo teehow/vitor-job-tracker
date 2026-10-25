@@ -77,6 +77,9 @@ Uma automação diária do Codex, **Radar de vagas do Vitor — 08h**, está con
 - Registro explícito de login, verificação ou informação faltante em **Próxima ação** e nas observações da vaga, com status **Aguardando informações**. Se o bloqueio afetar uma fonte inteira, ele aparece no relato da rodada.
 - Uso de sessões e acessos já disponíveis; quando for necessária intervenção, a rotina solicita login ou dados para uma execução futura, sem pedir senhas na conversa.
 - Registro dos resultados no tracker e atualização do `index.html` neste repositório.
+- Reconsulta dos anúncios oficiais das vagas já acompanhadas. Encerramentos confirmados recebem status **Vaga encerrada** e passam automaticamente para a aba **Arquivo**, com data, fonte, motivo e status anterior nas observações, preservando o histórico. Um anúncio encerrado não equivale a rejeição da candidatura nem cancela entrevista ou processo em andamento.
+
+Erros temporários, login obrigatório, CAPTCHA, ausência em uma busca ou um erro 404 isolado não confirmam encerramento. Nesses casos, a rotina mantém o status e registra a verificação inconclusiva para nova tentativa.
 
 Essa rotina depende das conexões, acessos e informações disponíveis. Logins, verificações ou dados faltantes podem impedir uma ação; apenas envios efetivamente confirmados devem ser registrados como concluídos. A rotina evita repetir candidaturas e contatos já registrados.
 
