@@ -66,17 +66,23 @@ Clique em **Baixar HTML atualizado** para baixar uma cópia completa do painel c
 
 ## Atualização diária
 
-Uma automação externa, configurada no ChatGPT para **08h de Brasília**, pesquisa vagas no LinkedIn, no [Ladders](https://www.theladders.com/), no [Himalayas](https://himalayas.app/) e nos sites das empresas, conforme o perfil e os critérios definidos:
+Uma automação diária do Codex, **Radar de vagas do Vitor — 08h**, está configurada para **08h de Brasília (America/Sao_Paulo)**. Ela pesquisa as fontes listadas em **Dados e critérios**, incluindo LinkedIn, [Ladders](https://www.theladders.com/), [Himalayas](https://himalayas.app/) e os portais oficiais das empresas, conforme o perfil e os critérios definidos:
 
 - Trabalho remoto permitido a partir do Brasil, incluindo oportunidades Brasil/LATAM/worldwide.
 - Foco em Senior Database Engineer, Oracle DBA/Engineer/Architect, SQL Server DBA/Architect e funções compatíveis.
 - Remuneração alvo de USD 100.000–120.000 bruto/ano ou USD 50–60/h.
-- Candidatura quando houver aderência e informações confirmadas suficientes, usando o currículo fornecido pelo candidato.
+- Candidatura automática quando houver aderência, informações confirmadas suficientes, currículo aprovado disponível e acesso à conta correta.
 - No Ladders, confirmação de elegibilidade para trabalho a partir do Brasil e distinção entre remuneração oficial e estimativas da plataforma.
-- Contato com recrutamento verificado quando faltar a faixa salarial ou outra informação relevante.
+- Consulta do Gmail e das conversas relevantes do LinkedIn para localizar respostas, confirmações e entrevistas, sem duplicar registros.
+- Registro explícito de login, verificação ou informação faltante em **Próxima ação** e nas observações da vaga, com status **Aguardando informações**. Se o bloqueio afetar uma fonte inteira, ele aparece no relato da rodada.
+- Uso de sessões e acessos já disponíveis; quando for necessária intervenção, a rotina solicita login ou dados para uma execução futura, sem pedir senhas na conversa.
 - Registro dos resultados no tracker e atualização do `index.html` neste repositório.
 
 Essa rotina depende das conexões, acessos e informações disponíveis. Logins, verificações ou dados faltantes podem impedir uma ação; apenas envios efetivamente confirmados devem ser registrados como concluídos. A rotina evita repetir candidaturas e contatos já registrados.
+
+A rotina usa o novo currículo aprovado pelo candidato nesta conversa quando ele estiver disponível; enquanto o arquivo estiver pendente, a pesquisa e a consulta de respostas continuam, mas candidaturas que dependam dele ficam pendentes. Ela não escolhe outra versão antiga por conta própria. Currículo, credenciais e conteúdo privado de mensagens não devem integrar o repositório público.
+
+Após alterações, a rotina valida o tracker, faz commit e push para `main` e confere o GitHub Pages. As notificações ficam restritas a novidades relevantes, envios confirmados, respostas, falhas ou ações necessárias, sem repetir bloqueios inalterados. Novos contatos ou respostas a recrutadores fora de uma candidatura dependem de autorização específica.
 
 O site é estático: abrir a página ou deixá-la aberta não executa a busca nem envia candidaturas. Alterações guardadas apenas no seu navegador precisam ser exportadas e compartilhadas para serem incorporadas à versão publicada.
 
