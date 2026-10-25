@@ -15,14 +15,21 @@ const { chromium } = require(process.argv[2] || 'playwright');
     page.on('pageerror', error => errors.push(error.message));
     await page.goto(pathToFileURL(path.resolve(__dirname, '../index.html')).href);
     const total = await page.locator('.job').count();
-    assert.equal(total, 49, 'All published opportunities remain available');
+    assert.ok(total >= 49, 'Original opportunities remain available as the tracker grows');
     assert.equal(await page.locator('#view-overview').isVisible(), true);
     assert.equal(await page.locator('.metric').count(), 4);
 
     await page.locator('[data-view="jobs"]').click();
-    assert.equal(await page.locator('.job:visible').count(), 17);
+    const activeCount = await page.locator('.job:visible').count();
+    assert.ok(activeCount > 0 && activeCount < total);
     await page.locator('[data-stage="archive"]').click();
-    assert.equal(await page.locator('.job:visible').count(), 32);
+    assert.equal(await page.locator('.job:visible').count() + activeCount, total, 'Active and archived views partition the full history');
+    for (const company of ['GIGA IT', 'Aptonet', 'EX Squared LATAM', 'TrainMind']) {
+      const closed = page.locator('.job').filter({ has: page.locator('h2', { hasText: company }) });
+      assert.equal(await closed.isVisible(), true, `${company} is archived`);
+      assert.equal(await closed.getAttribute('data-status'), 'encerrada');
+      assert.notEqual(await closed.locator('[name="response"]').inputValue(), 'negativa', 'A closed announcement is not a rejection');
+    }
     await page.locator('[data-stage="all"]').click();
     await page.locator('#search-jobs').fill('Sezzle');
     assert.equal(await page.locator('.job:visible').count(), 1);

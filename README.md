@@ -94,6 +94,8 @@ O site é estático: abrir a página ou deixá-la aberta não executa a busca ne
 - `index.html`: página completa, estilos, dados e lógica de acompanhamento.
 - `.nojekyll`: configuração para servir os arquivos estáticos.
 - `README.md`: instruções de uso.
+- `data/availability.json`: data, fonte e resultado das verificações de disponibilidade por vaga; resultados inconclusivos não mudam o status para encerrada.
+- `.private/`: estado local da rotina, ignorado pelo Git; nunca publicar conteúdo privado de sessões ou mensagens.
 
 O GitHub Pages publica a branch **main**, pasta **/ (root)**. Após um commit, aguarde a execução **pages build and deployment** concluir em **Actions**. Se a página continuar mostrando a versão anterior, recarregue-a após a publicação.
 
