@@ -6,3 +6,5 @@
 - Preserve o histórico de vagas, os identificadores de registros e a compatibilidade de backups. Não publique credenciais ou dados locais privados do navegador.
 - Na rotina diária, reconsulte a disponibilidade das vagas já registradas. Com encerramento confirmado em fonte oficial, use status `encerrada` para arquivar, registrando data, fonte, motivo e status anterior sem apagar o histórico. Falhas de acesso não comprovam encerramento; anúncio fechado não significa rejeição nem cancelamento de entrevista.
 - Consulte `.private/radar-state.json`, quando existir, para retomar a última conferência de e-mail e evitar repetir notificações de bloqueios inalterados. Atualize esse estado local sem adicioná-lo ao Git.
+
+- Relatos integrais de conversas e contatos permanecem no histórico privado local; publique somente sínteses profissionais. Consulte `.private/radar-state.json` antes de enviar commits locais, especialmente se houver bloqueio de publicação registrado por revisão automática.
