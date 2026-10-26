@@ -44,7 +44,7 @@ O botão **Salvar alterações** grava os dados no armazenamento local (`localSt
 
 Esses dados ficam no mesmo navegador, perfil e endereço do site. Eles **não são enviados automaticamente ao GitHub**, ao assistente ou a outros dispositivos. Limpar os dados do site, trocar de navegador ou usar uma sessão privada pode tornar essas alterações indisponíveis.
 
-O histórico publicado continua no HTML do repositório; as alterações locais são aplicadas sobre ele. Os registros manuais são associados à vaga por um identificador estável. Ao combinar registros locais, importados ou incorporados ao HTML, prevalece o registro com a data de atualização mais recente para cada vaga.
+A cronologia e os status publicados continuam no HTML do repositório; relatos detalhados de mensagens e contatos ficam no histórico privado local, em `.private/history-before-publication-*.html`, fora do Git. A versão pública usa sínteses profissionais. As alterações locais são aplicadas sobre os registros publicados. Os registros manuais são associados à vaga por um identificador estável. Ao combinar registros locais, importados ou incorporados ao HTML, prevalece o registro com a data de atualização mais recente para cada vaga.
 
 ## Backup e transferência
 
