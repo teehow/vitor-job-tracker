@@ -8,3 +8,6 @@
 - Consulte `.private/radar-state.json`, quando existir, para retomar a última conferência de e-mail e evitar repetir notificações de bloqueios inalterados. Atualize esse estado local sem adicioná-lo ao Git.
 
 - Relatos integrais de conversas e contatos permanecem no histórico privado local; publique somente sínteses profissionais. Consulte `.private/radar-state.json` antes de enviar commits locais, especialmente se houver bloqueio de publicação registrado por revisão automática.
+
+- Critérios atualizados em 27/10/2026: ausência de região de trabalho e/ou salário no anúncio não impede candidatura automática a vaga compatível, se não houver restrição explícita incompatível com trabalho a partir do Brasil. Não inferir esses dados; reavaliar vagas ativas bloqueadas apenas por essas ausências. Requisitos obrigatórios e respostas do formulário continuam exigindo evidência.
+- Quando houver recrutador identificado no próprio anúncio de vaga compatível, enviar uma única apresentação inicial baseada no currículo aprovado, após conferir histórico e vínculo com a vaga. Não repetir contatos existentes nem comprar créditos. Respostas posteriores e negociação exigem autorização específica. Manter texto integral e destinatários no histórico privado e publicar somente sínteses profissionais.
