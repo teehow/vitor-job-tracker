@@ -71,8 +71,8 @@ Uma automação diária do Codex, **Radar de vagas do Vitor — 08h**, está con
 - Trabalho remoto permitido a partir do Brasil, incluindo oportunidades Brasil/LATAM/worldwide.
 - Foco em Senior Database Engineer, Oracle DBA/Engineer/Architect, SQL Server DBA/Architect e funções compatíveis.
 - Remuneração alvo de USD 100.000–120.000 bruto/ano ou USD 50–60/h.
-- Candidatura automática quando houver aderência, informações confirmadas suficientes, currículo aprovado disponível e acesso à conta correta.
-- No Ladders, confirmação de elegibilidade para trabalho a partir do Brasil e distinção entre remuneração oficial e estimativas da plataforma.
+- Candidatura automática quando houver aderência, currículo aprovado, dados obrigatórios disponíveis e acesso à conta correta. Desde 27/10/2026, região e/ou salário não informados no anúncio não impedem o envio, desde que não exista restrição explícita incompatível com trabalho a partir do Brasil. Dados ausentes ficam registrados como não informados; vagas ativas bloqueadas apenas por essas ausências serão reavaliadas.
+- No Ladders e nas demais fontes, respeitar restrições explícitas de localização e distinguir remuneração oficial de estimativas da plataforma. Ausência de região não equivale a elegibilidade confirmada.
 - Consulta do Gmail e das conversas relevantes do LinkedIn para localizar respostas, confirmações e entrevistas, sem duplicar registros.
 - Registro explícito de login, verificação ou informação faltante em **Próxima ação** e nas observações da vaga, com status **Aguardando informações**. Se o bloqueio afetar uma fonte inteira, ele aparece no relato da rodada.
 - Uso de sessões e acessos já disponíveis; quando for necessária intervenção, a rotina solicita login ou dados para uma execução futura, sem pedir senhas na conversa.
@@ -85,7 +85,7 @@ Essa rotina depende das conexões, acessos e informações disponíveis. Logins,
 
 A rotina usa o currículo aprovado pelo candidato, já recebido e conferido. A localização do arquivo original está registrada de forma privada na automação; o bloqueio de currículo pendente foi resolvido. Se esse arquivo ficar inacessível, a rotina solicita intervenção sem escolher outra versão antiga por conta própria. Currículo, credenciais e conteúdo privado de mensagens não devem integrar o repositório público.
 
-Após alterações, a rotina valida o tracker, faz commit e push para `main` e confere o GitHub Pages. As notificações ficam restritas a novidades relevantes, envios confirmados, respostas, falhas ou ações necessárias, sem repetir bloqueios inalterados. Novos contatos ou respostas a recrutadores fora de uma candidatura dependem de autorização específica.
+Após alterações, a rotina valida o tracker, faz commit e push para `main` e confere o GitHub Pages. As notificações ficam restritas a novidades relevantes, envios confirmados, respostas, falhas ou ações necessárias, sem repetir bloqueios inalterados. Quando houver recrutador identificado no próprio anúncio de vaga compatível, a rotina pode enviar uma apresentação inicial curta, baseada no currículo aprovado e no idioma da vaga. Consultar o histórico antes de enviar para evitar duplicatas; informar candidatura realizada somente com confirmação. Texto integral e destinatários ficam no histórico privado; publicar apenas sínteses profissionais. Não comprar créditos ou assinaturas para enviar. Respostas posteriores, negociação e outros contatos dependem de autorização específica.
 
 O site é estático: abrir a página ou deixá-la aberta não executa a busca nem envia candidaturas. Alterações guardadas apenas no seu navegador precisam ser exportadas e compartilhadas para serem incorporadas à versão publicada.
 
