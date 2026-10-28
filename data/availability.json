@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T13:30:50.833028Z",
+  "checkedAt": "2026-10-28T10:59:56.609Z",
   "timezone": "America/Sao_Paulo",
   "jobs": [
     {
@@ -118,9 +118,9 @@
       "key": "greenhouse-8790039002",
       "title": "Senior SQL DBA — DistantJob",
       "url": "https://job-boards.greenhouse.io/distantjob/jobs/8790039002",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-28T07:59:56.609000-03:00",
       "availability": "application_link_present",
-      "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
+      "evidence": "Formulário oficial ativo. Região e salário não informados não bloqueiam a candidatura; envio pendente por autorização específica para transmissão dos dados ao Greenhouse nos Estados Unidos."
     },
     {
       "key": "linkedin-4469021614",
@@ -214,9 +214,9 @@
       "key": "url-https://www.getonbrd.com/empleos/data-science-analytics/senior-t-sql-database-engineer-improving-remote",
       "title": "Senior T SQL Database Engineer — Improving",
       "url": "https://www.getonbrd.com/empleos/data-science-analytics/senior-t-sql-database-engineer-improving-remote",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
-      "availability": "inconclusive",
-      "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
+      "checkedAt": "2026-10-28T07:59:56.609000-03:00",
+      "availability": "closed",
+      "evidence": "Anúncio oficial no Get on Board informa: vaga encerrada e não aceita mais candidaturas. Status anterior: nao_priorizar."
     },
     {
       "key": "url-https://vetta.gupy.io/jobs/12218151",
@@ -309,10 +309,10 @@
     {
       "key": "url-https://headspin.bamboohr.com/careers/332",
       "title": "Senior Microsoft Windows SQL Server DBA — HeadSpin",
-      "url": "https://headspin.bamboohr.com/careers/332",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
-      "availability": "inconclusive",
-      "evidence": "Redirecionamento; disponibilidade do anúncio original não confirmada."
+      "url": "https://headspin.bamboohr.com/careers/331",
+      "checkedAt": "2026-10-28T07:59:56.609000-03:00",
+      "availability": "application_link_present",
+      "evidence": "A vaga Senior Microsoft Windows SQL Server DBA permanece ativa no endereço oficial atual; o endereço anterior redireciona para a lista de carreiras."
     },
     {
       "key": "url-https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/remote/senior-database-engineer-ii_req-4586",
@@ -404,3 +404,4 @@
     }
   ]
 }
+
