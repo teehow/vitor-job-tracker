@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-28T12:12:51Z",
+  "checkedAt": "2026-10-29T08:44:13.858-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
     {
       "key": "url-https://jobs.lever.co/jobgether/81f344b6-ac52-4152-b184-f4bf5eb5c70b",
       "title": "Migration Expert (SQL Server → PostgreSQL) — Jobgether",
       "url": "https://jobs.lever.co/jobgether/81f344b6-ac52-4152-b184-f4bf5eb5c70b",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -14,15 +14,15 @@
       "key": "url-https://jobs.lever.co/jobgether/3dc3bd3a-f7ac-4300-abb2-bfb88bb45b8c",
       "title": "Analista DBA (Oracle e SQL Server) foco Protheus — Jobgether",
       "url": "https://jobs.lever.co/jobgether/3dc3bd3a-f7ac-4300-abb2-bfb88bb45b8c",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
-      "availability": "application_link_present",
-      "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
+      "availability": "inconclusive",
+      "evidence": "Verificação pública inconclusiva: HTTP 404 (Response status code does not indicate success: 404 (Not Found).). Não comprova encerramento."
     },
     {
       "key": "url-https://vempralanlink.gupy.io/jobs/12739355",
       "title": "Administrador de banco de dados PostgreSQL — Sênior — Lanlink",
       "url": "https://vempralanlink.gupy.io/jobs/12739355?jobBoardSource=gupy_public_page",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -30,15 +30,15 @@
       "key": "lever-12fdfa2c-4a51-40ea-b6ae-3bcdad9dbc4b",
       "title": "Data Developer Sênior – Cloud DB Specialist — CI&T (Job 31961)",
       "url": "https://jobs.lever.co/ciandt/12fdfa2c-4a51-40ea-b6ae-3bcdad9dbc4b",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
-      "evidence": "Verificação pública inconclusiva: HTTP Error 404: Not Found. Não comprova encerramento."
+      "evidence": "Verificação pública inconclusiva: HTTP 404 (Response status code does not indicate success: 404 (Not Found).). Não comprova encerramento."
     },
     {
       "key": "smartrecruiters-744000154640379",
       "title": "IT Database Administrator (English) — Eurofins",
       "url": "https://jobs.smartrecruiters.com/Eurofins/744000154640379-it-database-administrator-english-",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -46,7 +46,7 @@
       "key": "gupy-12613336",
       "title": "DBA Sênior (SQL Server) — C&A Brasil",
       "url": "https://cea.gupy.io/jobs/12613336?jobBoardSource=gupy_public_page",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -62,7 +62,7 @@
       "key": "url-https://www.workingnomads.com/jobs/senior-database-administrator-finalsite-1927194",
       "title": "Senior Database Administrator — Finalsite",
       "url": "https://www.workingnomads.com/jobs/senior-database-administrator-finalsite-1927194",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -70,15 +70,15 @@
       "key": "url-https://www.theladders.com/job/senior-sql-database-administrator-cardinal-technology-systems-corp-virtual-travel_89384791",
       "title": "Senior SQL Database Administrator — Cardinal Technology Systems",
       "url": "https://www.theladders.com/job/senior-sql-database-administrator-cardinal-technology-systems-corp-virtual-travel_89384791",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
-      "evidence": "Verificação pública inconclusiva: HTTP Error 403: Forbidden. Não comprova encerramento."
+      "evidence": "Verificação pública inconclusiva: HTTP 403 (Response status code does not indicate success: 403 (Forbidden).). Não comprova encerramento."
     },
     {
       "key": "url-https://embracesoftwareinc.zohorecruit.com/jobs/Careers/720166000042260114/Senior-Database-Administrator",
       "title": "Senior Database Administrator — Embrace / EPOWERdoc",
       "url": "https://embracesoftwareinc.zohorecruit.com/jobs/Careers/720166000042260114/Senior-Database-Administrator",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -94,7 +94,7 @@
       "key": "greenhouse-6218619004",
       "title": "Middle Database Administrator (SQL, Cloud, AWS) — Exadel",
       "url": "https://job-boards.greenhouse.io/exadelinc/jobs/6218619004",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -102,7 +102,7 @@
       "key": "greenhouse-6207483004",
       "title": "Associate Database Administrator (SQL Server, Oracle) — Exadel",
       "url": "https://job-boards.greenhouse.io/exadelinc/jobs/6207483004",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -118,7 +118,7 @@
       "key": "greenhouse-8790039002",
       "title": "Senior SQL DBA — DistantJob",
       "url": "https://job-boards.greenhouse.io/distantjob/jobs/8790039002",
-      "checkedAt": "2026-10-28T09:12:51-03:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Greenhouse confirmou o recebimento da candidatura em 28/10/2026 às 09:12 (Brasília). Anúncio ainda acessível; histórico de candidatura preservado."
     },
@@ -134,7 +134,7 @@
       "key": "url-https://wellfound.com/jobs/4756870-senior-database-administrator",
       "title": "Senior Database Administrator — Braze",
       "url": "https://wellfound.com/jobs/4756870-senior-database-administrator",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -142,7 +142,7 @@
       "key": "url-https://www.nerdin.com.br/vaga_emprego/vaga-dba-oracle-sr-99802.php",
       "title": "DBA Oracle Sr — Decision (Nerdin 99802)",
       "url": "https://www.nerdin.com.br/vaga_emprego/vaga-dba-oracle-sr-99802.php",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -150,7 +150,7 @@
       "key": "greenhouse-6188705004",
       "title": "SR DBA — ília",
       "url": "https://job-boards.greenhouse.io/ilia/jobs/6188705004",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -198,9 +198,9 @@
       "key": "url-https://vetta.gupy.io/jobs/12299257",
       "title": "Desenvolvedor PLSQL Sênior — Vetta",
       "url": "https://vetta.gupy.io/jobs/12299257?jobBoardSource=gupy_public_page",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
-      "availability": "application_link_present",
-      "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
+      "availability": "closed",
+      "evidence": "Portal oficial Gupy informa explicitamente “Candidaturas encerradas”. Status anterior: nao_priorizar. Histórico preservado; encerramento não representa rejeição individual."
     },
     {
       "key": "url-https://work.mercor.com/jobs/list_AAABmpOFrI8_o1919ypMPoR-/database-administrators",
@@ -222,7 +222,7 @@
       "key": "url-https://vetta.gupy.io/jobs/12218151",
       "title": "DBA Oracle Especialista — Vetta",
       "url": "https://vetta.gupy.io/jobs/12218151?jobBoardSource=gupy_public_page",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -230,7 +230,7 @@
       "key": "greenhouse-4727096005",
       "title": "Database Administrator — Nimble Gravity",
       "url": "https://job-boards.greenhouse.io/nimblegravity/jobs/4727096005",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Redirecionamento; disponibilidade do anúncio original não confirmada."
     },
@@ -246,7 +246,7 @@
       "key": "url-https://jobs.micro1.ai/post/e20cc342-c0d2-4d56-983f-cf9b0ae72772",
       "title": "Data Analyst — micro1 (SQL / Snowflake / AI Evaluation)",
       "url": "https://jobs.micro1.ai/post/e20cc342-c0d2-4d56-983f-cf9b0ae72772",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -254,7 +254,7 @@
       "key": "url-https://www.nerdin.com.br/vaga_emprego/vaga-especialista-dba-projeto-global-99294.php",
       "title": "Especialista DBA — Projeto Global — Entrust (Nerdin 99294)",
       "url": "https://www.nerdin.com.br/vaga_emprego/vaga-especialista-dba-projeto-global-99294.php",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -262,7 +262,7 @@
       "key": "greenhouse-7725284003",
       "title": "Senior Database Reliability Engineer — Sezzle",
       "url": "https://job-boards.greenhouse.io/sezzle/jobs/7725284003",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -278,7 +278,7 @@
       "key": "linkedin-4462091066",
       "title": "SQL Server Database Architect — BairesDev",
       "url": "https://br.linkedin.com/jobs/view/sql-server-database-architect-remote-work-ref%23302872-at-bairesdev-4462091066",
-      "checkedAt": "2026-10-27T13:30:50.833028Z",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Anúncio BairesDev aberto no LinkedIn autenticado; link para portal externo disponível. Sem confirmação de encerramento nem de nova submissão."
     },
@@ -286,17 +286,17 @@
       "key": "url-https://himalayas.app/companies/micro1/jobs/senior-database-reliability-engineer",
       "title": "Senior Database Reliability Engineer — micro1",
       "url": "https://himalayas.app/companies/micro1/jobs/senior-database-reliability-engineer",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
-      "evidence": "Verificação pública inconclusiva: HTTP Error 403: Forbidden. Não comprova encerramento."
+      "evidence": "Verificação pública inconclusiva: HTTP 403 (Response status code does not indicate success: 403 (Forbidden).). Não comprova encerramento."
     },
     {
       "key": "url-https://www.guidewire.com/about/careers/jobs/senior-database-migration-engineer-jr_15143",
       "title": "Senior Database Migration Engineer — Guidewire",
       "url": "https://www.guidewire.com/about/careers/jobs/senior-database-migration-engineer-jr_15143",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
-      "evidence": "Verificação pública inconclusiva: HTTP Error 404: Not Found. Não comprova encerramento."
+      "evidence": "Verificação pública inconclusiva: HTTP 404 (Response status code does not indicate success: 404 (Not Found).). Não comprova encerramento."
     },
     {
       "key": "linkedin-4473778673",
@@ -310,7 +310,7 @@
       "key": "url-https://headspin.bamboohr.com/careers/332",
       "title": "Senior Microsoft Windows SQL Server DBA — HeadSpin",
       "url": "https://headspin.bamboohr.com/careers/331",
-      "checkedAt": "2026-10-28T07:59:56.609000-03:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "A vaga Senior Microsoft Windows SQL Server DBA permanece ativa no endereço oficial atual; o endereço anterior redireciona para a lista de carreiras."
     },
@@ -318,7 +318,7 @@
       "key": "url-https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/remote/senior-database-engineer-ii_req-4586",
       "title": "Senior Database Engineer II — Cambium Learning Group",
       "url": "https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/remote/senior-database-engineer-ii_req-4586",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -326,7 +326,7 @@
       "key": "url-https://careers-page.com/initiumsoft/job/X98W3XVY",
       "title": "Administrador de Base de Datos Oracle — Initiumsoft",
       "url": "https://careers-page.com/initiumsoft/job/X98W3XVY",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -334,7 +334,7 @@
       "key": "url-https://jobs.lever.co/ciandt/28baca15-2e5c-4516-b6de-9dfd9352611c",
       "title": "[Job-32044] Senior Data Developer — CI&T",
       "url": "https://jobs.lever.co/ciandt/28baca15-2e5c-4516-b6de-9dfd9352611c",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -342,15 +342,15 @@
       "key": "url-https://career.luxoft.com/jobs/database-architect-25333",
       "title": "Database Architect — DXC Luxoft (VR-123640)",
       "url": "https://career.luxoft.com/jobs/database-architect-25333",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
-      "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
+      "evidence": "Verificação pública inconclusiva: HTTP sem resposta (The request was canceled due to the configured HttpClient.Timeout of 15 seconds elapsing.). Não comprova encerramento."
     },
     {
       "key": "linkedin-4479224176",
       "title": "SQL Engineer — BairesDev (REF#305630)",
       "url": "https://www.linkedin.com/jobs/view/4479224176/",
-      "checkedAt": "2026-10-27T13:30:50.833028Z",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Anúncio BairesDev aberto no LinkedIn autenticado; link para portal externo disponível. Sem confirmação de encerramento nem de nova submissão."
     },
@@ -366,7 +366,7 @@
       "key": "url-https://careers.epam.com/en/vacancy/senior-database-engineer-blt6ddk1yslo4jr9nqp_en",
       "title": "Senior Database Engineer — EPAM Systems",
       "url": "https://careers.epam.com/en/vacancy/senior-database-engineer-blt6ddk1yslo4jr9nqp_en",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -374,7 +374,7 @@
       "key": "url-https://jobs.lever.co/ciandt/0c968359-0502-4d29-934f-6a9ed78e2578",
       "title": "[Job-32118] Senior Data Engineer — CI&T",
       "url": "https://jobs.lever.co/ciandt/0c968359-0502-4d29-934f-6a9ed78e2578",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     },
@@ -382,15 +382,15 @@
       "key": "url-https://jobs.lever.co/jobgether/6d572326-7c7e-4444-ae4f-e601ced688e4",
       "title": "Senior Data Warehouse and Integration Engineer — Jobgether / empresa não identificada",
       "url": "https://jobs.lever.co/jobgether/6d572326-7c7e-4444-ae4f-e601ced688e4",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
-      "evidence": "Verificação pública inconclusiva: HTTP Error 404: Not Found. Não comprova encerramento."
+      "evidence": "Verificação pública inconclusiva: HTTP 404 (Response status code does not indicate success: 404 (Not Found).). Não comprova encerramento."
     },
     {
       "key": "url-https://www.getonbrd.com/jobs/sysadmin-devops-qa/dba-oracle-senior-latam-bc-tecnologia-remote",
       "title": "DBA Oracle Senior (LATAM) — BC Tecnología",
       "url": "https://www.getonbrd.com/jobs/sysadmin-devops-qa/dba-oracle-senior-latam-bc-tecnologia-remote",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "inconclusive",
       "evidence": "Conteúdo dinâmico ou ausência de sinal conclusivo na leitura pública; estado anterior preservado."
     },
@@ -398,10 +398,9 @@
       "key": "url-https://www.nerdin.com.br/vaga_emprego/vaga-especialista-em-migracao-de-dados-postgresql-100038.php",
       "title": "Especialista em Migração de Dados PostgreSQL — Pasquali (Nerdin 100038)",
       "url": "https://www.nerdin.com.br/vaga_emprego/vaga-especialista-em-migracao-de-dados-postgresql-100038.php",
-      "checkedAt": "2026-10-27T13:28:01.677212+00:00",
+      "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
     }
   ]
 }
-
