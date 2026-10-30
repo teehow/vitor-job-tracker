@@ -1,7 +1,15 @@
 {
-  "checkedAt": "2026-10-29T08:44:13.858-03:00",
+  "checkedAt": "2026-10-30T08:55:34.974-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
+    {
+      "key": "url-https://www.linkedin.com/in/bittusingh09",
+      "title": "Senior Oracle DBA — Valzo Soft Solutions",
+      "url": "https://www.linkedin.com/in/bittusingh09/",
+      "checkedAt": "2026-10-30T08:55:34.974-03:00",
+      "availability": "inconclusive",
+      "evidence": "Candidatura enviada por e-mail confirmada no Gmail; o anúncio individual não foi localizado para validar disponibilidade. Não presume encerramento."
+    },
     {
       "key": "url-https://jobs.lever.co/jobgether/81f344b6-ac52-4152-b184-f4bf5eb5c70b",
       "title": "Migration Expert (SQL Server → PostgreSQL) — Jobgether",
@@ -404,3 +412,4 @@
     }
   ]
 }
+
