@@ -1,7 +1,31 @@
 {
-  "checkedAt": "2026-10-30T08:55:34.974-03:00",
+  "checkedAt": "2026-10-31T08:49:07.522-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
+    {
+      "key": "linkedin-4483828145",
+      "title": "Data Base Administrator — Oracle (PJ) — MSB Tecnologia",
+      "url": "https://br.linkedin.com/jobs/view/data-base-administrator-%E2%80%94-oracle-pj-at-msb-tecnologia-4483828145",
+      "checkedAt": "2026-10-31T08:49:07.522-03:00",
+      "availability": "application_link_present",
+      "evidence": "Anúncio atual no LinkedIn informa Brasil remoto e candidatura no portal oficial da empresa. Data Lake é requisito obrigatório não comprovado no currículo aprovado; nenhuma candidatura enviada."
+    },
+    {
+      "key": "linkedin-4472302584",
+      "title": "Oracle DBA — Remote Work — BairesDev",
+      "url": "https://br.linkedin.com/jobs/view/oracle-dba-remote-work-at-bairesdev-4472302584",
+      "checkedAt": "2026-10-31T08:49:07.522-03:00",
+      "availability": "application_link_present",
+      "evidence": "Anúncio atual para o Brasil apresenta candidatura. Produção, HA/DR e inglês avançado são requisitos obrigatórios não integralmente comprovados; nenhuma candidatura enviada."
+    },
+    {
+      "key": "linkedin-4479050699",
+      "title": "DBA de SQL — Hays",
+      "url": "https://br.linkedin.com/jobs/view/dba-de-sql-at-hays-4479050699",
+      "checkedAt": "2026-10-31T08:49:07.522-03:00",
+      "availability": "application_link_present",
+      "evidence": "Anúncio atual informa Brasil 100% remoto e candidatura. Inglês avançado/fluente, HA/DR e cloud são requisitos obrigatórios não integralmente comprovados; nenhuma candidatura enviada."
+    },
     {
       "key": "url-https://www.linkedin.com/in/bittusingh09",
       "title": "Senior Oracle DBA — Valzo Soft Solutions",
