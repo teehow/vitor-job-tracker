@@ -1,7 +1,15 @@
 {
-  "checkedAt": "2026-10-31T08:49:07.522-03:00",
+  "checkedAt": "2026-11-03T08:03:16.080-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
+    {
+      "key": "linkedin-profile-hima-s-66579225b-senior-dba-20261102",
+      "title": "Senior Database Administrator — Arcturus Consulting Services",
+      "url": "https://www.linkedin.com/in/hima-s-66579225b/",
+      "checkedAt": "2026-11-03T08:03:16.080-03:00",
+      "availability": "inconclusive",
+      "evidence": "Publicação pública da recrutadora localizada e candidatura por e-mail confirmada no Gmail em 02/11/2026, com currículo enviado em mensagem complementar. Região, remuneração e disponibilidade atual do anúncio não foram inferidas."
+    },
     {
       "key": "linkedin-4483828145",
       "title": "Data Base Administrator — Oracle (PJ) — MSB Tecnologia",
