@@ -1,7 +1,31 @@
 {
-  "checkedAt": "2026-11-03T08:03:16.080-03:00",
+  "checkedAt": "2026-11-04T11:02:52.805-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
+    {
+      "key": "url-https://aaryavinservices.com-oracle-dba-20261103",
+      "title": "Oracle DBA — Aaryavin Services",
+      "url": "https://aaryavinservices.com/",
+      "checkedAt": "2026-11-04T11:02:52.805-03:00",
+      "availability": "application_sent",
+      "evidence": "Candidatura por e-mail localizada no Gmail em 03/11/2026, com currículo anexado. Ainda não há resposta; destinatários, dados pessoais, texto integral e arquivo enviado permanecem somente no histórico privado."
+    },
+    {
+      "key": "url-https://www.e-solutionsinc.com-senior-database-engineer-20261103",
+      "title": "Senior Database Engineer — E-Solutions",
+      "url": "https://www.e-solutionsinc.com/",
+      "checkedAt": "2026-11-04T11:02:52.805-03:00",
+      "availability": "recruiter_contact",
+      "evidence": "Processo iniciado por contato direto de recrutamento em 03/11/2026. Próximo passo ainda depende de confirmação; remuneração, destinatários e conteúdo integral permanecem somente no histórico privado."
+    },
+    {
+      "key": "linkedin-search-administrador-dados-senior-20261103",
+      "title": "Administrador de Dados Sênior — processo via recrutamento",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=Administrador%20de%20Dados%20S%C3%AAnior",
+      "checkedAt": "2026-11-04T11:02:52.805-03:00",
+      "availability": "recruiter_contact",
+      "evidence": "Processo iniciado por abordagem direta no LinkedIn em 03/11/2026. Interesse confirmado e retorno pendente; dados pessoais, valores e conteúdo integral permanecem somente no histórico privado."
+    },
     {
       "key": "linkedin-profile-hima-s-66579225b-senior-dba-20261102",
       "title": "Senior Database Administrator — Arcturus Consulting Services",
@@ -30,9 +54,9 @@
       "key": "linkedin-4479050699",
       "title": "DBA de SQL — Hays",
       "url": "https://br.linkedin.com/jobs/view/dba-de-sql-at-hays-4479050699",
-      "checkedAt": "2026-10-31T08:49:07.522-03:00",
-      "availability": "application_link_present",
-      "evidence": "Anúncio atual informa Brasil 100% remoto e candidatura. Inglês avançado/fluente, HA/DR e cloud são requisitos obrigatórios não integralmente comprovados; nenhuma candidatura enviada."
+      "checkedAt": "2026-11-04T11:02:52.805-03:00",
+      "availability": "closed",
+      "evidence": "LinkedIn autenticado no perfil de Vitor exibe explicitamente “No longer accepting applications”. Status anterior: Não priorizar. Histórico preservado; encerramento do anúncio não representa rejeição individual."
     },
     {
       "key": "url-https://www.linkedin.com/in/bittusingh09",
