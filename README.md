@@ -66,7 +66,7 @@ Clique em **Baixar HTML atualizado** para baixar uma cópia completa do painel c
 
 ## Atualização diária
 
-Uma automação diária do Codex, **Radar de vagas do Vitor — 08h**, está configurada para **08h de Brasília (America/Sao_Paulo)**. Ela pesquisa as fontes listadas em **Dados e critérios**, incluindo LinkedIn, [Ladders](https://www.theladders.com/), [Himalayas](https://himalayas.app/) e os portais oficiais das empresas, conforme o perfil e os critérios definidos:
+Uma automação diária do Codex, **Radar de vagas do Vitor — 11h**, está configurada para **11h de Brasília (America/Sao_Paulo)**. Antes de qualquer pesquisa ou acesso a mensagens, ela confirma que o Gmail conectado pertence a Vitor Tee How e que o LinkedIn está no perfil `/in/vitor-tee-how/`. Se uma das identidades não puder ser confirmada, a rodada é interrompida e solicita a conexão correta. Depois dessa validação, ela pesquisa as fontes listadas em **Dados e critérios**, incluindo LinkedIn, [Ladders](https://www.theladders.com/), [Himalayas](https://himalayas.app/) e os portais oficiais das empresas, conforme o perfil e os critérios definidos:
 
 - Trabalho remoto permitido a partir do Brasil, incluindo oportunidades Brasil/LATAM/worldwide.
 - Foco em Senior Database Engineer, Oracle DBA/Engineer/Architect, SQL Server DBA/Architect e funções compatíveis.
@@ -106,3 +106,4 @@ O `index.html` permanece autossuficiente para abrir diretamente no navegador e g
 Para executar a verificação de regressão com Playwright e um navegador Chromium instalados: `node tests/tracker.cjs [caminho-do-playwright] [caminho-do-navegador]`. Ela usa um perfil temporário e verifica navegação, filtros, edição, persistência, backups e reabertura do HTML exportado em telas desktop e mobile.
 
 O repositório e o site são públicos. Observações salvas apenas localmente não aparecem na versão pública; ao incorporar um backup ou HTML ao repositório, esses dados passam a integrar o conteúdo publicado.
+
