@@ -32,7 +32,7 @@ Cada cartão reúne cargo, empresa, localização, remuneração conhecida, stat
 4. Defina **Próxima ação**, **Data de acompanhamento** e **Prioridade**. A visão geral destaca até seis ações; datas anteriores ao dia atual de Brasília aparecem como atrasadas.
 5. Clique em **Salvar alterações**.
 
-As entrevistas devem ser registradas no horário de **Brasília**. O campo de remuneração aceita texto: informe moeda, valor e periodicidade, por exemplo, `USD 8.500/mês bruto`.
+As entrevistas devem ser registradas no horário de **Brasília**. O campo de remuneração aceita texto: informe moeda, valor e periodicidade, por exemplo, `valor e periodicidade confirmados`.
 
 Status e resposta são campos independentes. Ao marcar uma entrevista, selecione também **Entrevista marcada** para que ela apareça nesse filtro e no contador.
 
@@ -70,7 +70,7 @@ Uma automação diária do Codex, **Radar de vagas do Vitor — 11h**, está con
 
 - Trabalho remoto permitido a partir do Brasil, incluindo oportunidades Brasil/LATAM/worldwide.
 - Foco em Senior Database Engineer, Oracle DBA/Engineer/Architect, SQL Server DBA/Architect e funções compatíveis.
-- Remuneração alvo de USD 100.000–120.000 bruto/ano ou USD 50–60/h.
+- Remuneração alvo de faixa definida no histórico privado.
 - Candidatura automática quando houver aderência, currículo aprovado, dados obrigatórios disponíveis e acesso à conta correta. Desde 27/10/2026, região e/ou salário não informados no anúncio não impedem o envio, desde que não exista restrição explícita incompatível com trabalho a partir do Brasil. Dados ausentes ficam registrados como não informados; vagas ativas bloqueadas apenas por essas ausências serão reavaliadas.
 - No Ladders e nas demais fontes, respeitar restrições explícitas de localização e distinguir remuneração oficial de estimativas da plataforma. Ausência de região não equivale a elegibilidade confirmada.
 - Consulta do Gmail e das conversas relevantes do LinkedIn para localizar respostas, confirmações e entrevistas, sem duplicar registros.
