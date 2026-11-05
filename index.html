@@ -257,6 +257,7 @@ let storageAvailable = true;
 try { records = cleanRecords(JSON.parse(document.getElementById("tracker-overrides").textContent)); } catch (_) {}
 try { records = mergeRecords(records,JSON.parse(document.getElementById("tracker-overrides-round24").textContent)); } catch (_) {}
 try { records = mergeRecords(records,JSON.parse(document.getElementById("tracker-overrides-round31").textContent)); } catch (_) {}
+try { records = mergeRecords(records,JSON.parse(document.getElementById("tracker-overrides-round05").textContent)); } catch (_) {}
 try { records = mergeRecords(records,JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}")); }
 catch (_) { storageAvailable = false; }
 function tell(message) { document.getElementById("tracker-notice").textContent = message; }
