@@ -1,7 +1,15 @@
 {
-  "checkedAt": "2026-11-04T11:02:52.805-03:00",
+  "checkedAt": "2026-11-05T11:02:47.443-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
+    {
+      "key": "url-https://www.inspyrsolutions.com/job/26-160335-senior-database-engineer",
+      "title": "Senior Database Engineer — INSPYR Solutions",
+      "url": "https://www.inspyrsolutions.com/job/26-160335-senior-database-engineer/",
+      "checkedAt": "2026-11-05T11:02:47.443-03:00",
+      "availability": "application_link_present",
+      "evidence": "Anúncio oficial ativo para trabalho remoto na LATAM, contrato de 12+ meses. Formulário externo disponível; candidatura ainda não enviada porque a transmissão de nome, e-mail, telefone e currículo à INSPYR aguarda confirmação específica."
+    },
     {
       "key": "url-https://aaryavinservices.com-oracle-dba-20261103",
       "title": "Oracle DBA — Aaryavin Services",
