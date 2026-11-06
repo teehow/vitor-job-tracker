@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T11:02:47.443-03:00",
+  "checkedAt": "2026-11-06T11:08:56-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
     {
@@ -22,9 +22,9 @@
       "key": "url-https://www.e-solutionsinc.com-senior-database-engineer-20261103",
       "title": "Senior Database Engineer — E-Solutions",
       "url": "https://www.e-solutionsinc.com/",
-      "checkedAt": "2026-11-04T11:02:52.805-03:00",
-      "availability": "recruiter_contact",
-      "evidence": "Processo iniciado por contato direto de recrutamento em 03/11/2026. Próximo passo ainda depende de confirmação; remuneração, destinatários e conteúdo integral permanecem somente no histórico privado."
+      "checkedAt": "2026-11-06T11:08:56-03:00",
+      "availability": "application_sent",
+      "evidence": "O recrutador confirmou em 06/11/2026 às 10:46 (Brasília) que o perfil já foi submetido ao cliente. Valores, destinatários e conteúdo integral permanecem somente no histórico privado."
     },
     {
       "key": "linkedin-search-administrador-dados-senior-20261103",
@@ -174,9 +174,9 @@
       "key": "greenhouse-6207483004",
       "title": "Associate Database Administrator (SQL Server, Oracle) — Exadel",
       "url": "https://job-boards.greenhouse.io/exadelinc/jobs/6207483004",
-      "checkedAt": "2026-10-29T08:44:13.858-03:00",
-      "availability": "application_link_present",
-      "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
+      "checkedAt": "2026-11-06T11:08:56-03:00",
+      "availability": "closed",
+      "evidence": "O endereço individual redireciona ao painel oficial Greenhouse da Exadel com erro, e a vaga não consta entre as oportunidades atuais. Status anterior: nao_priorizar. Encerramento não representa rejeição individual."
     },
     {
       "key": "url-https://jobs.jobvite.com/jobs-gigait/job/o5gQAfwv",
@@ -302,9 +302,9 @@
       "key": "greenhouse-4727096005",
       "title": "Database Administrator — Nimble Gravity",
       "url": "https://job-boards.greenhouse.io/nimblegravity/jobs/4727096005",
-      "checkedAt": "2026-10-29T08:44:13.858-03:00",
-      "availability": "inconclusive",
-      "evidence": "Redirecionamento; disponibilidade do anúncio original não confirmada."
+      "checkedAt": "2026-11-06T11:08:56-03:00",
+      "availability": "closed",
+      "evidence": "O endereço individual redireciona ao painel oficial Greenhouse da Nimble Gravity com erro, e a vaga não consta entre as oportunidades atuais. Status anterior: nao_priorizar. Encerramento não representa rejeição individual."
     },
     {
       "key": "linkedin-4476448470",
