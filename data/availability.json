@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T11:08:56-03:00",
+  "checkedAt": "2026-11-11T16:07:26.235-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
     {
@@ -473,6 +473,22 @@
       "checkedAt": "2026-10-29T08:44:13.858-03:00",
       "availability": "application_link_present",
       "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
+    },
+    {
+      "key": "url-https://www.companyseekers.com/company/lahzr-tech-llp/ACX-2229",
+      "title": "Senior SQL Server DBA — Lahzr Tech",
+      "url": "https://www.companyseekers.com/company/lahzr-tech-llp/ACX-2229",
+      "checkedAt": "2026-11-11T16:07:26.235-03:00",
+      "availability": "contact_pending",
+      "evidence": "Contato iniciado pelo candidato em 10/11/2026; região, remuneração e horário ainda não informados. Nenhuma resposta até esta verificação. Destinatário e conversa permanecem no histórico privado."
+    },
+    {
+      "key": "linkedin-4489966461",
+      "title": "Senior SQL Server DBA — INDI Staffing Services",
+      "url": "https://br.linkedin.com/jobs/view/senior-sql-server-dba-remote-work-at-indi-staffing-services-4489966461",
+      "checkedAt": "2026-11-11T16:07:26.235-03:00",
+      "availability": "active_not_prioritized",
+      "evidence": "Anúncio atual para trabalho remoto no Brasil. Inglês avançado, liderança de DBAs e experiência extensa em HA/DR não estão integralmente comprovados no currículo aprovado; nenhuma candidatura ou mensagem foi enviada."
     }
   ]
 }
