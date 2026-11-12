@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T16:07:26.235-03:00",
+  "checkedAt": "2026-11-12T14:21:00-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
     {
@@ -489,6 +489,14 @@
       "checkedAt": "2026-11-11T16:07:26.235-03:00",
       "availability": "active_not_prioritized",
       "evidence": "Anúncio atual para trabalho remoto no Brasil. Inglês avançado, liderança de DBAs e experiência extensa em HA/DR não estão integralmente comprovados no currículo aprovado; nenhuma candidatura ou mensagem foi enviada."
+    },
+    {
+      "key": "url-https://www.portaldetalentos.senior.com.br/vacancy/040a2a41-f6cd-42ac-b0aa-ac565799ee57",
+      "title": "Administrador de Banco de Dados Pleno — G4F",
+      "url": "https://www.portaldetalentos.senior.com.br/vacancy/040a2a41-f6cd-42ac-b0aa-ac565799ee57",
+      "checkedAt": "2026-11-12T14:21:00-03:00",
+      "availability": "active_contact_pending",
+      "evidence": "Anúncio oficial ativo: CLT híbrida em Belo Horizonte, primeiro mês presencial, nível pleno e requisitos de Oracle/MySQL, backup, recovery, monitoramento e tuning. Contato recebido pelo candidato em 12/11/2026; resposta sobre o vínculo aguardada."
     }
   ]
 }
