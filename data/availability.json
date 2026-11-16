@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-12T14:21:00-03:00",
+  "checkedAt": "2026-11-16T15:05:17-03:00",
   "timezone": "America/Sao_Paulo",
   "jobs": [
     {
@@ -326,9 +326,9 @@
       "key": "url-https://www.nerdin.com.br/vaga_emprego/vaga-especialista-dba-projeto-global-99294.php",
       "title": "Especialista DBA — Projeto Global — Entrust (Nerdin 99294)",
       "url": "https://www.nerdin.com.br/vaga_emprego/vaga-especialista-dba-projeto-global-99294.php",
-      "checkedAt": "2026-10-29T08:44:13.858-03:00",
-      "availability": "application_link_present",
-      "evidence": "Link ou formulário de candidatura presente; elegibilidade e remuneração não presumidas."
+      "checkedAt": "2026-11-16T15:05:17-03:00",
+      "availability": "closed",
+      "evidence": "O anúncio do Nerdin informa explicitamente que não aceita mais candidaturas. Status anterior: nao_priorizar. Histórico preservado; o encerramento não representa rejeição individual."
     },
     {
       "key": "greenhouse-7725284003",
@@ -494,9 +494,9 @@
       "key": "url-https://www.portaldetalentos.senior.com.br/vacancy/040a2a41-f6cd-42ac-b0aa-ac565799ee57",
       "title": "Administrador de Banco de Dados Pleno — G4F",
       "url": "https://www.portaldetalentos.senior.com.br/vacancy/040a2a41-f6cd-42ac-b0aa-ac565799ee57",
-      "checkedAt": "2026-11-12T14:21:00-03:00",
-      "availability": "active_contact_pending",
-      "evidence": "Anúncio oficial ativo: CLT híbrida em Belo Horizonte, primeiro mês presencial, nível pleno e requisitos de Oracle/MySQL, backup, recovery, monitoramento e tuning. Contato recebido pelo candidato em 12/11/2026; resposta sobre o vínculo aguardada."
+      "checkedAt": "2026-11-16T15:05:17-03:00",
+      "availability": "candidate_withdrew",
+      "evidence": "A recrutadora confirmou as condições da contratação CLT e do modelo híbrido. O candidato agradeceu a oportunidade e encerrou o interesse porque as condições não atendem aos seus objetivos; valores e detalhes da conversa permanecem privados."
     }
   ]
 }
